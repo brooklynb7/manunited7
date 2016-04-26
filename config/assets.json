@@ -1,0 +1,16 @@
+{
+	"core": {
+		"css": {
+			"public/build/css/dist.min.css": [
+
+			]
+		},
+		"js": {
+			"public/build/js/dist.min.js": [
+				"public/lib/jquery/dist/jquery.min.js",
+				"public/lib/moment/min/moment.min.js",
+				"public/lib/lodash/lodash.min.js"
+			]
+		}
+	}
+}

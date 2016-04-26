@@ -1,0 +1,12 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"description": "",
+	"dependencies": {
+		"jquery": "1.11.2",
+		"lodash": "~3.8.0",
+		"moment": "~2.10.3",
+		"bootstrap": "3.1.0",
+		"ckeditor": "4.3.3"
+	}
+}

@@ -56,13 +56,14 @@ module.exports = {
 		'space-before-function-paren': 0,
 		'space-in-parens': [2, 'never'],
 		'spaced-comment': [2, 'always'],
-		strict: 0,
+		strict: 1,
 		'quote-props': 0,
 		quotes: [1, 'single'],
 		'wrap-iife': [2, 'outside'],
 		'vars-on-top': 0
 	},
 	env: {
+		es6: true,
 		node: true,
 		browser: true,
 		jasmine: true,
@@ -77,6 +78,7 @@ module.exports = {
 		inject: true,
 		io: true,
 		moment: true,
+		Service: true,
 		Modernizr: true,
 		Promise: true,
 		__TESTING__: true,

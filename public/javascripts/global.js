@@ -1,34 +1,44 @@
-(function($) {
-	'use strict';
+'use strict';
 
-	var locale = $.cookie('i18nlocale') || 'zh-cn';
-	$.ajax({
-		type: 'get',
-		url: '/static/locales/' + locale + '.js',
-		async: false,
-		dataType: 'json',
-		success: function(rst) {
-			$.i18n.load(rst);
-		}
+(function($) {
+
+	const selector = {
+		i18nZh: '.i18n.zh',
+		i18nEn: '.i18n.en',
+		container: '.container'
+	};
+
+	const locale = $.cookie('i18nlocale') || 'zh-cn';
+
+	Service.getLocaleFile(locale).done(function(i18nData) {
+		$.i18n.load(i18nData);
 	});
 
 	$(document).ready(function() {
-		$('.i18n.en').on('click', function() {
-			$.cookie('i18nlocale', 'en', {
-				expires: 365,
-				path: '/'
-			});
-			window.location.reload();
-		});
+		bindi18nEnEvent();
+		bindi18nZhEvent();
 
-		$('.i18n.zh').on('click', function() {
-			$.cookie('i18nlocale', 'zh-cn', {
-				expires: 365,
-				path: '/'
-			});
-			window.location.reload();
-		});
-
-		$('.container').css('min-height', $(window).height() - 120);
+		$(selector.container).css('min-height', $(window).height() - 120);
 	});
+
+	function bindi18nEnEvent() {
+		$(selector.i18nEn).on('click', function() {
+			seti18nCookie('en');
+			window.location.reload();
+		});
+	}
+
+	function bindi18nZhEvent() {
+		$(selector.i18nZh).on('click', function() {
+			seti18nCookie('zh-cn');
+			window.location.reload();
+		});
+	}
+
+	function seti18nCookie(val) {
+		$.cookie('i18nlocale', val, {
+			expires: 365,
+			path: '/'
+		});
+	}
 }(jQuery));

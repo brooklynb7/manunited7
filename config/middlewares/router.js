@@ -1,10 +1,14 @@
 'use strict';
 
 var config = require('../config'),
+	i18n = require('./i18n').i18n,
 	path = require('path');
 
 module.exports = function(app) {
+	app.use(i18n.init);
+
 	app.use(function(req, res, next) {
+		res.locals.i18nlocale = req.cookies.i18nlocale;
 		res.locals.host = req.protocol + '://' + req.hostname;
 		res.locals.url = {
 			original: req.originalUrl,

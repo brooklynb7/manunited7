@@ -66,7 +66,7 @@ MessageHandler.prototype.subscribe_event_handler = function() {
 	this.res.reply(config.wechat.subscribeMsg);
 };
 
-//'oBGqGjkX4rAjcMhTjthPuiFz1Jac'
+// 'oBGqGjkX4rAjcMhTjthPuiFz1Jac'
 MessageHandler.prototype.menu_event_handler = function() {
 	var eventKey = this.message.EventKey;
 	var msg = '';

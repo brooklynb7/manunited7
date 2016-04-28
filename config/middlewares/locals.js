@@ -5,6 +5,7 @@ var config = require('../config');
 module.exports = function(app) {
 	// Setting application local variables
 	app.locals.title = config.app.title;
+	app.locals.brand = config.app.brand;
 	app.locals.description = config.app.description;
 	app.locals.keywords = config.app.keywords;
 	app.locals.googleAnalyticsTrackingID = config.app.googleAnalyticsTrackingID;

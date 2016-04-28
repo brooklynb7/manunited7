@@ -1,0 +1,150 @@
+body {
+	margin:0;
+	padding: 0;
+	font-size: 14px;
+	font-family:"Microsoft Yahei", "Trebuchet MS", Georgia,"Times New Roman",Times,sans-serif;
+	background-color: #eee;
+}
+.united_red{
+	color: #bd0006 !important;
+}
+a, a:visited{
+	color: #2a6496;
+}
+a.more{
+	color:#bd0006;
+}
+a.clean_link{
+	cursor:default !important;
+	text-decoration:none !important;
+}
+.weixin_logo{
+	width: 128px;
+	height: 128px;
+	margin-bottom: 10px;
+}
+.img_100{
+	max-width: 100%;
+}
+p {
+	margin: 0 0 15px;
+	line-height: 1.6;
+}
+.required{
+	color:#c00;
+}
+.bold{
+	font-weight: bold;
+}
+
+.header{
+	color: #fff;
+	margin-bottom: 20px;
+	background: #bd0006;
+	box-shadow: 0 3px 10px #ccc;
+}
+
+.header .navbar-collapse{
+	padding-left: 30px;
+}
+img.logo{
+	width: 42px;
+	height: 42px;
+	margin-left: 10px;
+	margin-top: 4px;
+	display: inline-block;
+	float: left;
+}
+a.logo, a:hover.logo{
+	float: left;
+	padding: 14px 12px 10px 12px;
+	font-size: 18px;
+	color:#fff;
+}
+.navbar-default .navbar-toggle .icon-bar {
+	background-color: #fff;
+}
+.navbar-default .navbar-toggle:hover, 
+.navbar-default .navbar-toggle:focus {
+	background-color: #bd0006;
+}
+
+.btn-red, .btn-red:visited, .btn-red:focus{
+	color:#fff;
+	background-color: #bd0006;
+	border-color: #bd0006;
+	outline: none;
+}
+.btn-red:hover,  .btn-red.active{
+	color:#fff;
+	background-color: #c90008;
+	border-color: #c90008;
+}
+.btn-red.disabled, 
+.btn-red[disabled],
+.btn-red.disabled:hover, 
+.btn-red[disabled]:hover{
+	background-color: #bd0006;
+	border-color: #bd0006;
+}
+:focus{
+	outline: none;
+}
+label{
+	font-weight:normal;
+}
+.list-group{
+	margin-bottom: 0px;
+}
+.list-group-item .glyphicon{
+	top: 4px;
+	font-size: 12px;
+	margin-left: 5px;
+}
+.glyphicon-remove{
+	color:#bd0006;
+}
+.glyphicon-remove:hover,
+.glyphicon-remove:focus{
+	color:#bd0006;
+}
+.form-group{
+	margin-bottom: 5px;
+}
+.panel-heading .breadcrumb{
+	padding-left: 0px;
+	margin: 0px;
+	padding: 0px;
+}
+.page-header{
+	margin-top: 20px;
+}
+.panel-body{
+	padding: 15px 30px;
+}
+
+.list-group-item.row{
+	margin-left: 5px;
+	margin-right: 5px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+.timeline .list-group-item{	
+	margin-bottom: 15px;
+}
+.timeline .list-group-item .row{	
+	margin-left: 0px;
+	margin-right: 20px;
+	padding-left: 0px;
+	padding-right: 0px;
+}
+.timeline .list-group-item a.glyphicon{
+	position: absolute;
+	right: 5px;
+}
+.timeline .list-group-item a.glyphicon.glyphicon-plus{
+	top: 105px;
+}
+.timeline .list-group-item .row.content{
+	margin-top:5px;
+}

@@ -3,12 +3,11 @@
 var path = require('path');
 var express = require('express');
 var pageRouter = express.Router();
+var twitter = require('../controllers/twitter');
 
 module.exports = function(app) {
 
-	pageRouter.get('/', function(req, res) {
+	pageRouter.get('/', twitter.says);
 
-	});
-
-	// app.use('/', pageRouter);
+	app.use('/', pageRouter);
 };

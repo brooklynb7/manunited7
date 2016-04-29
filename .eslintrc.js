@@ -29,7 +29,7 @@ module.exports = {
 		}],
 		'max-len': 0,
 		'new-cap': [2, {
-			newIsCapExceptions: ['acl.memoryBackend', 'acl']
+			capIsNewExceptions: ['acl.memoryBackend', 'acl', 'express.Router', 'express']
 		}],
 		'no-bitwise': 0,
 		'no-caller': 2,

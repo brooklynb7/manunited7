@@ -38,13 +38,8 @@ exports.unitedMembersTimelinePage = function(req, res) {
 /* API Controller */
 exports.getUnitedMembersTimeline = function(req, res) {
 	request.get(generateOAuthRequestOption(getListTimelineUrl('unitedMembers'), req), function(e, r, body) {
-		if (e) {
-			res.status(400).send({
-				msg: errorHandler.getErrorMessage(e)
-			});
-		} else {
-			res.json(JSON.parse(body));
-		}
+		if (e) return errorHandler.sendError(res, e, 400);
+		res.json(JSON.parse(body));
 	});
 	// res.json(test_twitter_data);
 };

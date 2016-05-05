@@ -52,3 +52,9 @@ exports.getErrorMessage = function(err) {
 
 	return message;
 };
+
+exports.sendError = function(res, err, statusCode) {
+	res.status(statusCode).send({
+		msg: this.getErrorMessage(err)
+	});
+};

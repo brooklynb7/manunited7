@@ -33,5 +33,27 @@
 		});
 	};
 
+	// Posts API
+	Service.prototype.getPostsApiUrl = function(path) {
+		return this.getApiUrl('posts') + path;
+	};
+
+	Service.prototype.getPosts = function(condition, page, size) {
+		condition.page = page;
+		condition.size = size;
+		return $.ajax({
+			url: this.getPostsApiUrl('/'),
+			data: condition,
+			method: 'GET'
+		});
+	};
+
+	Service.prototype.getPostBySlug = function(slug) {
+		return $.ajax({
+			url: this.getPostsApiUrl('/' + slug),
+			method: 'GET'
+		});
+	};
+
 	window.Service = new Service();
 }(jQuery));

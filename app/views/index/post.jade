@@ -1,0 +1,8 @@
+extends ../layouts/default
+block content
+	div.post
+block extraScripts
+	script.
+		var slug = '!{slug}';
+		var jiathis_config = {data_track_clickback:'true'};
+	script(src='/static/javascripts/index/post.js')

@@ -36,7 +36,7 @@
 
 		var $textDiv = $('<div class="pull-left col-xs-10 col-sm-11" />');
 		var $userName = $('<div class="user-name">' + timeline.user.name + '</div>');
-		var $time = $('<span class="time">' + moment(new Date(timeline.created_at)).format('YYYY-MM-DD hh:mm') + '</span>');
+		var $time = $('<span class="time">' + UI.convertDateTime(timeline.created_at) + '</span>');
 		$userName.append($time);
 		var $text = $('<p class="pre-wrap-text text">' + timeline.text + '</p>');
 		$textDiv.append($userName).append($text);

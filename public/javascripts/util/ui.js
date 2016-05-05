@@ -10,6 +10,10 @@
 		$(el).removeAttr('disabled');
 	};
 
+	UI.prototype.convertDateTime = function(timestamp) {
+		return moment(new Date(timestamp)).format('YYYY-MM-DD HH:mm');
+	};
+
 	window.UI = new UI();
 }(jQuery));
 
@@ -161,7 +165,7 @@
 		var currentPage = options.current;
 		var cb = options.cb;
 
-		var $ul = $('<ul class="pagination pull-right" />');
+		var $ul = $('<ul class="pagination" />');
 		if (total > 0) {
 			var pages = Math.ceil(total / size);
 			var page_start = currentPage - 2 > 0 ? currentPage - 2 : 1;
@@ -199,7 +203,7 @@
 			}
 			$ul.append($lastLink);
 
-			return $('<nav />').append($ul);
+			return $ul;
 		}
 	};
 	window.UI.Pagination = {

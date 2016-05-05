@@ -2,13 +2,15 @@
 
 (function($) {
 
-	const selector = {
+	var selector = {
 		i18nZh: '.i18n.zh',
 		i18nEn: '.i18n.en',
 		container: '.container'
 	};
 
-	const locale = $.cookie('i18nlocale') || 'zh-cn';
+	$(selector.container).css('min-height', $(window).height() - 120);
+
+	var locale = $.cookie('i18nlocale') || 'zh-cn';
 
 	Service.getLocaleFile(locale).done(function(i18nData) {
 		$.i18n.load(i18nData);
@@ -17,8 +19,6 @@
 	$(document).ready(function() {
 		bindi18nEnEvent();
 		bindi18nZhEvent();
-
-		$(selector.container).css('min-height', $(window).height() - 120);
 	});
 
 	function bindi18nEnEvent() {

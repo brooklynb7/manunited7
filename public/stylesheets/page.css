@@ -14,6 +14,21 @@ a, a:visited{
 .more{
 	color:#bd0006;
 }
+.clear{
+	clear: both;
+}
+.relative{
+	position: relative;
+}
+.absolute{
+	position: absolute;
+}
+.time{
+	margin-left: 10px;
+	color: #999999;
+	font-style: italic;
+	font-size: 12px;
+}
 .clean_link{
 	cursor:default;
 	text-decoration:none;
@@ -147,4 +162,23 @@ label{
 }
 .timeline .list-group-item .content{
 	margin-top:5px;
+}
+.pre-wrap-text{
+	white-space: pre-wrap;
+	word-wrap: break-word;
+}
+
+.united-members-timeline>div{
+	border-bottom: 1px solid #ccc;
+    margin-bottom: 16px;
+}
+.united-members-timeline .profile-image{
+	margin-top: 3px;
+}
+.united-members-timeline .text{
+	margin:6px 0 15px;
+}
+.united-members-timeline .user-name{
+	font-size: 16px;
+	font-weight: bold;
 }

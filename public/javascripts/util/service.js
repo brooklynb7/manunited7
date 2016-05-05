@@ -21,5 +21,17 @@
 		return this.url_prefix + serviceUrl;
 	};
 
+	// Twitter API
+	Service.prototype.getTwitterApiUrl = function(path) {
+		return this.getApiUrl('twitter') + path;
+	};
+
+	Service.prototype.getTwitterUnitedMembersTimeline = function() {
+		return $.ajax({
+			method: 'GET',
+			url: this.getTwitterApiUrl('/united-members-timeline')
+		});
+	};
+
 	window.Service = new Service();
 }(jQuery));

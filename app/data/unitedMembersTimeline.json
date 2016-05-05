@@ -1,0 +1,3733 @@
+[{
+	"created_at": "Thu May 05 01:46:40 +0000 2016",
+	"id": 728038167631253500,
+	"id_str": "728038167631253505",
+	"text": ".@officialcafu Cumpri o dessfio pelos meus amigos brasileros! https://t.co/xnqsvlNOf3 Pensou que não is conseguir? https://t.co/FPIqHrxWDg",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "officialcafu",
+			"name": "Cafu.",
+			"id": 1966554482,
+			"id_str": "1966554482",
+			"indices": [1, 14]
+		}],
+		"urls": [{
+			"url": "https://t.co/xnqsvlNOf3",
+			"expanded_url": "https://youtu.be/l8pawhRIqPE",
+			"display_url": "youtu.be/l8pawhRIqPE",
+			"indices": [62, 85]
+		}, {
+			"url": "https://t.co/FPIqHrxWDg",
+			"expanded_url": "http://bit.ly/24qZKh2",
+			"display_url": "bit.ly/24qZKh2",
+			"indices": [115, 138]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 130122646,
+		"id_str": "130122646",
+		"name": "Diego Forlan",
+		"screen_name": "DiegoForlan7",
+		"location": "Montevideo, Uruguay",
+		"description": "Uruguayo, Campeón de América 2011, mejor jugador del Mundial 2010, Doble Bota de Oro, Campeón Europa League, Supercampeón de Europa...",
+		"url": "http://t.co/SoFhpO7YiX",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "http://t.co/SoFhpO7YiX",
+					"expanded_url": "http://www.diegoforlan.com",
+					"display_url": "diegoforlan.com",
+					"indices": [0, 22]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 4769182,
+		"friends_count": 152,
+		"listed_count": 21998,
+		"created_at": "Tue Apr 06 11:16:24 +0000 2010",
+		"favourites_count": 2,
+		"utc_offset": -7200,
+		"time_zone": "Greenland",
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 1134,
+		"lang": "es",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/514082229224370177/xxA927UA.jpeg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/514082229224370177/xxA927UA.jpeg",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/634372022471163905/ABe90CQZ_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/634372022471163905/ABe90CQZ_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/130122646/1440081051",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 19,
+	"favorite_count": 53,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "pt"
+}, {
+	"created_at": "Thu May 05 01:45:53 +0000 2016",
+	"id": 728037972055081000,
+	"id_str": "728037972055080960",
+	"text": ".@officialcafu para ti y mis amigos de Brasil, reto cumplido! https://t.co/n3PDCXY5p8 Pensabas que no lo hacía, eh? https://t.co/YcVR5Au40I",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "officialcafu",
+			"name": "Cafu.",
+			"id": 1966554482,
+			"id_str": "1966554482",
+			"indices": [1, 14]
+		}],
+		"urls": [{
+			"url": "https://t.co/n3PDCXY5p8",
+			"expanded_url": "https://youtu.be/92x1gZ_OBqk",
+			"display_url": "youtu.be/92x1gZ_OBqk",
+			"indices": [62, 85]
+		}, {
+			"url": "https://t.co/YcVR5Au40I",
+			"expanded_url": "http://bit.ly/1OejKXG",
+			"display_url": "bit.ly/1OejKXG",
+			"indices": [116, 139]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 130122646,
+		"id_str": "130122646",
+		"name": "Diego Forlan",
+		"screen_name": "DiegoForlan7",
+		"location": "Montevideo, Uruguay",
+		"description": "Uruguayo, Campeón de América 2011, mejor jugador del Mundial 2010, Doble Bota de Oro, Campeón Europa League, Supercampeón de Europa...",
+		"url": "http://t.co/SoFhpO7YiX",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "http://t.co/SoFhpO7YiX",
+					"expanded_url": "http://www.diegoforlan.com",
+					"display_url": "diegoforlan.com",
+					"indices": [0, 22]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 4769182,
+		"friends_count": 152,
+		"listed_count": 21998,
+		"created_at": "Tue Apr 06 11:16:24 +0000 2010",
+		"favourites_count": 2,
+		"utc_offset": -7200,
+		"time_zone": "Greenland",
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 1134,
+		"lang": "es",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/514082229224370177/xxA927UA.jpeg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/514082229224370177/xxA927UA.jpeg",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/634372022471163905/ABe90CQZ_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/634372022471163905/ABe90CQZ_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/130122646/1440081051",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 32,
+	"favorite_count": 76,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "es"
+}, {
+	"created_at": "Wed May 04 19:27:09 +0000 2016",
+	"id": 727942660783276000,
+	"id_str": "727942660783276033",
+	"text": "Pre game @ChampionsLeague anthem.. Wow!!! Unreal scenes.. Special place! #Madrid https://t.co/TWCAnzdWJw",
+	"entities": {
+		"hashtags": [{
+			"text": "Madrid",
+			"indices": [73, 80]
+		}],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "ChampionsLeague",
+			"name": "Champions League",
+			"id": 627673190,
+			"id_str": "627673190",
+			"indices": [9, 25]
+		}],
+		"urls": [],
+		"media": [{
+			"id": 727942534601822200,
+			"id_str": "727942534601822208",
+			"indices": [81, 104],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727942534601822208/pu/img/cc1qtCPHlxJZlmT8.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727942534601822208/pu/img/cc1qtCPHlxJZlmT8.jpg",
+			"url": "https://t.co/TWCAnzdWJw",
+			"display_url": "pic.twitter.com/TWCAnzdWJw",
+			"expanded_url": "http://twitter.com/rioferdy5/status/727942660783276033/video/1",
+			"type": "photo",
+			"sizes": {
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 191,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 1024,
+					"h": 576,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727942534601822200,
+			"id_str": "727942534601822208",
+			"indices": [81, 104],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727942534601822208/pu/img/cc1qtCPHlxJZlmT8.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727942534601822208/pu/img/cc1qtCPHlxJZlmT8.jpg",
+			"url": "https://t.co/TWCAnzdWJw",
+			"display_url": "pic.twitter.com/TWCAnzdWJw",
+			"expanded_url": "http://twitter.com/rioferdy5/status/727942660783276033/video/1",
+			"type": "video",
+			"sizes": {
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 191,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 1024,
+					"h": 576,
+					"resize": "fit"
+				}
+			},
+			"video_info": {
+				"aspect_ratio": [16, 9],
+				"duration_millis": 19963,
+				"variants": [{
+					"bitrate": 320000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727942534601822208/pu/vid/320x180/G3EhUcTbVnIM-sjC.mp4"
+				}, {
+					"bitrate": 832000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727942534601822208/pu/vid/640x360/t7wrMYaJA1RqqOl7.mp4"
+				}, {
+					"content_type": "application/x-mpegURL",
+					"url": "https://video.twimg.com/ext_tw_video/727942534601822208/pu/pl/NAv7EnDFKR_6kCn-.m3u8"
+				}, {
+					"content_type": "application/dash+xml",
+					"url": "https://video.twimg.com/ext_tw_video/727942534601822208/pu/pl/NAv7EnDFKR_6kCn-.mpd"
+				}, {
+					"bitrate": 2176000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727942534601822208/pu/vid/1280x720/UG_QeVfpT9KnSXgx.mp4"
+				}]
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 155927976,
+		"id_str": "155927976",
+		"name": "Rio Ferdinand",
+		"screen_name": "rioferdy5",
+		"location": "London, England",
+		"description": "Official Twitter account of Rio Ferdinand / Media Enquiries - info@neweraglobalsports.com / https://t.co/9hI5ihb0LY",
+		"url": "https://t.co/LSjQoVaFJ4",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/LSjQoVaFJ4",
+					"expanded_url": "http://www.5mag.co",
+					"display_url": "5mag.co",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": [{
+					"url": "https://t.co/9hI5ihb0LY",
+					"expanded_url": "http://Instagram.com/rioferdy5",
+					"display_url": "Instagram.com/rioferdy5",
+					"indices": [92, 115]
+				}]
+			}
+		},
+		"protected": false,
+		"followers_count": 6898409,
+		"friends_count": 480,
+		"listed_count": 22095,
+		"created_at": "Tue Jun 15 14:47:40 +0000 2010",
+		"favourites_count": 690,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 16590,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "271E16",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/155927976/1457431294",
+		"profile_link_color": "BD0404",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "F3F3F3",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 1102,
+	"favorite_count": 1496,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 19:08:25 +0000 2016",
+	"id": 727937946389774300,
+	"id_str": "727937946389774337",
+	"text": "RT @TheColorfulKit: per @Bundesliga_EN ,\n@CH14_ has created 100 goalscoring chances. \n- avg of 3.5 SOGs per game\n-won an impressive 45.9% o…",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "TheColorfulKit",
+			"name": "The Colorful Kit",
+			"id": 2668309766,
+			"id_str": "2668309766",
+			"indices": [3, 18]
+		}, {
+			"screen_name": "Bundesliga_EN",
+			"name": "Bundesliga",
+			"id": 61433111,
+			"id_str": "61433111",
+			"indices": [24, 38]
+		}, {
+			"screen_name": "CH14_",
+			"name": "Chicharito Hernandez",
+			"id": 618420295,
+			"id_str": "618420295",
+			"indices": [41, 47]
+		}],
+		"urls": []
+	},
+	"truncated": false,
+	"source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 618420295,
+		"id_str": "618420295",
+		"name": "Chicharito Hernandez",
+		"screen_name": "CH14_",
+		"location": "En el presente...",
+		"description": "Twitter oficial de CH14\n\nNO TENGO FACEBOOK\n\nInstagram: CH14_instagram\n\n1422 #blessed #feyconfianza",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 6245897,
+		"friends_count": 391,
+		"listed_count": 9073,
+		"created_at": "Mon Jun 25 20:38:36 +0000 2012",
+		"favourites_count": 1654,
+		"utc_offset": -14400,
+		"time_zone": "Eastern Time (US & Canada)",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 967,
+		"lang": "es",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/649200786505904129/YwGwT8Lm_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/649200786505904129/YwGwT8Lm_normal.jpg",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"retweeted_status": {
+		"created_at": "Wed May 04 18:40:56 +0000 2016",
+		"id": 727931028933910500,
+		"id_str": "727931028933910528",
+		"text": "per @Bundesliga_EN ,\n@CH14_ has created 100 goalscoring chances. \n- avg of 3.5 SOGs per game\n-won an impressive 45.9% of his challenges",
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "Bundesliga_EN",
+				"name": "Bundesliga",
+				"id": 61433111,
+				"id_str": "61433111",
+				"indices": [4, 18]
+			}, {
+				"screen_name": "CH14_",
+				"name": "Chicharito Hernandez",
+				"id": 618420295,
+				"id_str": "618420295",
+				"indices": [21, 27]
+			}],
+			"urls": []
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 2668309766,
+			"id_str": "2668309766",
+			"name": "The Colorful Kit",
+			"screen_name": "TheColorfulKit",
+			"location": "EE.UU",
+			"description": "I write about #ElTri",
+			"url": "http://t.co/4mprl1Nz6B",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "http://t.co/4mprl1Nz6B",
+						"expanded_url": "http://TheColorfulKit.com",
+						"display_url": "TheColorfulKit.com",
+						"indices": [0, 22]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 1198,
+			"friends_count": 104,
+			"listed_count": 27,
+			"created_at": "Tue Jul 22 03:51:32 +0000 2014",
+			"favourites_count": 401,
+			"utc_offset": -18000,
+			"time_zone": "Central Time (US & Canada)",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 15987,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/491607902902169600/TImTAyYo.jpeg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/491607902902169600/TImTAyYo.jpeg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/491612245793591296/2u9y1XHH_normal.png",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/491612245793591296/2u9y1XHH_normal.png",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/2668309766/1439501102",
+			"profile_link_color": "1BA84A",
+			"profile_sidebar_border_color": "FFFFFF",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 115,
+		"favorite_count": 376,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	"is_quote_status": false,
+	"retweet_count": 115,
+	"favorite_count": 0,
+	"favorited": false,
+	"retweeted": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 18:27:46 +0000 2016",
+	"id": 727927715249053700,
+	"id_str": "727927715249053696",
+	"text": "Tick tock....from the studio...players warming up.... @ Estadio Santiago Bernabéu https://t.co/vquMOifApe",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/vquMOifApe",
+			"expanded_url": "https://www.instagram.com/p/BE_tDy-tg_m/",
+			"display_url": "instagram.com/p/BE_tDy-tg_m/",
+			"indices": [82, 105]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 155927976,
+		"id_str": "155927976",
+		"name": "Rio Ferdinand",
+		"screen_name": "rioferdy5",
+		"location": "London, England",
+		"description": "Official Twitter account of Rio Ferdinand / Media Enquiries - info@neweraglobalsports.com / https://t.co/9hI5ihb0LY",
+		"url": "https://t.co/LSjQoVaFJ4",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/LSjQoVaFJ4",
+					"expanded_url": "http://www.5mag.co",
+					"display_url": "5mag.co",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": [{
+					"url": "https://t.co/9hI5ihb0LY",
+					"expanded_url": "http://Instagram.com/rioferdy5",
+					"display_url": "Instagram.com/rioferdy5",
+					"indices": [92, 115]
+				}]
+			}
+		},
+		"protected": false,
+		"followers_count": 6898409,
+		"friends_count": 480,
+		"listed_count": 22095,
+		"created_at": "Tue Jun 15 14:47:40 +0000 2010",
+		"favourites_count": 690,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 16590,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "271E16",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/155927976/1457431294",
+		"profile_link_color": "BD0404",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "F3F3F3",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": {
+		"type": "Point",
+		"coordinates": [40.45281665, -3.68896181]
+	},
+	"coordinates": {
+		"type": "Point",
+		"coordinates": [-3.68896181, 40.45281665]
+	},
+	"place": {
+		"id": "206c436ce43a43a3",
+		"url": "https://api.twitter.com/1.1/geo/id/206c436ce43a43a3.json",
+		"place_type": "city",
+		"name": "Madrid",
+		"full_name": "Madrid, Spain",
+		"country_code": "ES",
+		"country": "España",
+		"contained_within": [],
+		"bounding_box": {
+			"type": "Polygon",
+			"coordinates": [
+				[
+					[-3.8890049, 40.3120713],
+					[-3.5180102, 40.3120713],
+					[-3.5180102, 40.6435181],
+					[-3.8890049, 40.6435181]
+				]
+			]
+		},
+		"attributes": {}
+	},
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 34,
+	"favorite_count": 100,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 18:26:28 +0000 2016",
+	"id": 727927388672299000,
+	"id_str": "727927388672299013",
+	"text": "RT @lucia_villalon: 11 ideal de la temporada en Bundesliga! A votar a @CH14_ en cuanto se pueda!!  https://t.co/Ci4bC2on8H",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "lucia_villalon",
+			"name": "Lucia Villalon Puras",
+			"id": 472828135,
+			"id_str": "472828135",
+			"indices": [3, 18]
+		}, {
+			"screen_name": "CH14_",
+			"name": "Chicharito Hernandez",
+			"id": 618420295,
+			"id_str": "618420295",
+			"indices": [70, 76]
+		}],
+		"urls": [{
+			"url": "https://t.co/Ci4bC2on8H",
+			"expanded_url": "https://twitter.com/bundesliga_en/status/727506940725739520",
+			"display_url": "twitter.com/bundesliga_en/…",
+			"indices": [99, 122]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://tapbots.com/tweetbot\" rel=\"nofollow\">Tweetbot for iΟS</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 618420295,
+		"id_str": "618420295",
+		"name": "Chicharito Hernandez",
+		"screen_name": "CH14_",
+		"location": "En el presente...",
+		"description": "Twitter oficial de CH14\n\nNO TENGO FACEBOOK\n\nInstagram: CH14_instagram\n\n1422 #blessed #feyconfianza",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 6245897,
+		"friends_count": 391,
+		"listed_count": 9073,
+		"created_at": "Mon Jun 25 20:38:36 +0000 2012",
+		"favourites_count": 1654,
+		"utc_offset": -14400,
+		"time_zone": "Eastern Time (US & Canada)",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 967,
+		"lang": "es",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/649200786505904129/YwGwT8Lm_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/649200786505904129/YwGwT8Lm_normal.jpg",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"retweeted_status": {
+		"created_at": "Wed May 04 10:37:02 +0000 2016",
+		"id": 727809254330138600,
+		"id_str": "727809254330138624",
+		"text": "11 ideal de la temporada en Bundesliga! A votar a @CH14_ en cuanto se pueda!!  https://t.co/Ci4bC2on8H",
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "CH14_",
+				"name": "Chicharito Hernandez",
+				"id": 618420295,
+				"id_str": "618420295",
+				"indices": [50, 56]
+			}],
+			"urls": [{
+				"url": "https://t.co/Ci4bC2on8H",
+				"expanded_url": "https://twitter.com/bundesliga_en/status/727506940725739520",
+				"display_url": "twitter.com/bundesliga_en/…",
+				"indices": [79, 102]
+			}]
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 472828135,
+			"id_str": "472828135",
+			"name": "Lucia Villalon Puras",
+			"screen_name": "lucia_villalon",
+			"location": "Madrid//Santander//Leverkusen",
+			"description": "Periodista ⚽️ • Instagram: lucia_villalon • ✌️1422 • Cuenta personal",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 93464,
+			"friends_count": 375,
+			"listed_count": 491,
+			"created_at": "Tue Jan 24 10:31:56 +0000 2012",
+			"favourites_count": 1574,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 2059,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/709125543116087299/AnbAHrXx_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/709125543116087299/AnbAHrXx_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/472828135/1424604728",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"quoted_status_id": 727506940725739500,
+		"quoted_status_id_str": "727506940725739520",
+		"quoted_status": {
+			"created_at": "Tue May 03 14:35:45 +0000 2016",
+			"id": 727506940725739500,
+			"id_str": "727506940725739520",
+			"text": "TEAM OF THE SEASON\n\nGet to know all 48 candidates before the vote starts tomorrow! https://t.co/Z9wBVhN48q https://t.co/8OkkVjjN5j",
+			"entities": {
+				"hashtags": [],
+				"symbols": [],
+				"user_mentions": [],
+				"urls": [{
+					"url": "https://t.co/Z9wBVhN48q",
+					"expanded_url": "http://bndsl.ga/TOTS1516",
+					"display_url": "bndsl.ga/TOTS1516",
+					"indices": [83, 106]
+				}],
+				"media": [{
+					"id": 727506181590229000,
+					"id_str": "727506181590228992",
+					"indices": [107, 130],
+					"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727506181590228992/pu/img/EMfOqknBD3KQN9TU.jpg",
+					"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727506181590228992/pu/img/EMfOqknBD3KQN9TU.jpg",
+					"url": "https://t.co/8OkkVjjN5j",
+					"display_url": "pic.twitter.com/8OkkVjjN5j",
+					"expanded_url": "http://twitter.com/Bundesliga_EN/status/727506940725739520/video/1",
+					"type": "photo",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"medium": {
+							"w": 600,
+							"h": 338,
+							"resize": "fit"
+						},
+						"small": {
+							"w": 340,
+							"h": 191,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 1024,
+							"h": 576,
+							"resize": "fit"
+						}
+					}
+				}]
+			},
+			"extended_entities": {
+				"media": [{
+					"id": 727506181590229000,
+					"id_str": "727506181590228992",
+					"indices": [107, 130],
+					"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727506181590228992/pu/img/EMfOqknBD3KQN9TU.jpg",
+					"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727506181590228992/pu/img/EMfOqknBD3KQN9TU.jpg",
+					"url": "https://t.co/8OkkVjjN5j",
+					"display_url": "pic.twitter.com/8OkkVjjN5j",
+					"expanded_url": "http://twitter.com/Bundesliga_EN/status/727506940725739520/video/1",
+					"type": "video",
+					"sizes": {
+						"thumb": {
+							"w": 150,
+							"h": 150,
+							"resize": "crop"
+						},
+						"medium": {
+							"w": 600,
+							"h": 338,
+							"resize": "fit"
+						},
+						"small": {
+							"w": 340,
+							"h": 191,
+							"resize": "fit"
+						},
+						"large": {
+							"w": 1024,
+							"h": 576,
+							"resize": "fit"
+						}
+					},
+					"video_info": {
+						"aspect_ratio": [16, 9],
+						"duration_millis": 30000,
+						"variants": [{
+							"bitrate": 832000,
+							"content_type": "video/mp4",
+							"url": "https://video.twimg.com/ext_tw_video/727506181590228992/pu/vid/640x360/4UODN0GADgza9xwZ.mp4"
+						}, {
+							"bitrate": 2176000,
+							"content_type": "video/mp4",
+							"url": "https://video.twimg.com/ext_tw_video/727506181590228992/pu/vid/1280x720/TZf_o-oRCqAVg9c4.mp4"
+						}, {
+							"content_type": "application/dash+xml",
+							"url": "https://video.twimg.com/ext_tw_video/727506181590228992/pu/pl/rB31GuvhG5kdMypE.mpd"
+						}, {
+							"bitrate": 320000,
+							"content_type": "video/mp4",
+							"url": "https://video.twimg.com/ext_tw_video/727506181590228992/pu/vid/320x180/9NxOAqpIU3WWOLj0.mp4"
+						}, {
+							"content_type": "application/x-mpegURL",
+							"url": "https://video.twimg.com/ext_tw_video/727506181590228992/pu/pl/rB31GuvhG5kdMypE.m3u8"
+						}]
+					}
+				}]
+			},
+			"truncated": false,
+			"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+			"in_reply_to_status_id": null,
+			"in_reply_to_status_id_str": null,
+			"in_reply_to_user_id": null,
+			"in_reply_to_user_id_str": null,
+			"in_reply_to_screen_name": null,
+			"user": {
+				"id": 61433111,
+				"id_str": "61433111",
+				"name": "Bundesliga",
+				"screen_name": "Bundesliga_EN",
+				"location": "Frankfurt, Germany",
+				"description": "The Bundesliga's official English-language Twitter channel! #Bundesliga   https://t.co/2XHbRsD9uc   https://t.co/KA6AyEIxys German @Bundesliga_de ©GettyImages",
+				"url": "http://t.co/OIws0ddiVh",
+				"entities": {
+					"url": {
+						"urls": [{
+							"url": "http://t.co/OIws0ddiVh",
+							"expanded_url": "http://www.bundesliga.com",
+							"display_url": "bundesliga.com",
+							"indices": [0, 22]
+						}]
+					},
+					"description": {
+						"urls": [{
+							"url": "https://t.co/2XHbRsD9uc",
+							"expanded_url": "http://www.bundesliga.com/en/imprint/",
+							"display_url": "bundesliga.com/en/imprint/",
+							"indices": [74, 97]
+						}, {
+							"url": "https://t.co/KA6AyEIxys",
+							"expanded_url": "http://instagram.com/bundesliga_en/",
+							"display_url": "instagram.com/bundesliga_en/",
+							"indices": [100, 123]
+						}]
+					}
+				},
+				"protected": false,
+				"followers_count": 601610,
+				"friends_count": 430,
+				"listed_count": 3063,
+				"created_at": "Thu Jul 30 08:31:10 +0000 2009",
+				"favourites_count": 455,
+				"utc_offset": 7200,
+				"time_zone": "Bern",
+				"geo_enabled": true,
+				"verified": true,
+				"statuses_count": 81044,
+				"lang": "en",
+				"contributors_enabled": false,
+				"is_translator": false,
+				"is_translation_enabled": false,
+				"profile_background_color": "FFFFFF",
+				"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/602151091812241408/VZgeXqWC.jpg",
+				"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/602151091812241408/VZgeXqWC.jpg",
+				"profile_background_tile": true,
+				"profile_image_url": "http://pbs.twimg.com/profile_images/639355754718171136/0dk3zc0V_normal.jpg",
+				"profile_image_url_https": "https://pbs.twimg.com/profile_images/639355754718171136/0dk3zc0V_normal.jpg",
+				"profile_banner_url": "https://pbs.twimg.com/profile_banners/61433111/1435585293",
+				"profile_link_color": "C80000",
+				"profile_sidebar_border_color": "FFFFFF",
+				"profile_sidebar_fill_color": "B6BDC3",
+				"profile_text_color": "1C1F23",
+				"profile_use_background_image": true,
+				"has_extended_profile": false,
+				"default_profile": false,
+				"default_profile_image": false,
+				"following": true,
+				"follow_request_sent": false,
+				"notifications": false
+			},
+			"geo": null,
+			"coordinates": null,
+			"place": null,
+			"contributors": null,
+			"is_quote_status": false,
+			"retweet_count": 129,
+			"favorite_count": 203,
+			"favorited": false,
+			"retweeted": false,
+			"possibly_sensitive": false,
+			"lang": "en"
+		},
+		"is_quote_status": true,
+		"retweet_count": 180,
+		"favorite_count": 575,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "es"
+	},
+	"is_quote_status": true,
+	"retweet_count": 180,
+	"favorite_count": 0,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "es"
+}, {
+	"created_at": "Wed May 04 17:18:41 +0000 2016",
+	"id": 727910331390038000,
+	"id_str": "727910331390038016",
+	"text": "The stage... The smell.. Makes ya wanna play again! #Madrid #UCL https://t.co/itnYDzw0xI",
+	"entities": {
+		"hashtags": [{
+			"text": "Madrid",
+			"indices": [52, 59]
+		}, {
+			"text": "UCL",
+			"indices": [60, 64]
+		}],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [],
+		"media": [{
+			"id": 727910237689286700,
+			"id_str": "727910237689286657",
+			"indices": [65, 88],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727910237689286657/pu/img/S7F4VyV4bAO5p6aS.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727910237689286657/pu/img/S7F4VyV4bAO5p6aS.jpg",
+			"url": "https://t.co/itnYDzw0xI",
+			"display_url": "pic.twitter.com/itnYDzw0xI",
+			"expanded_url": "http://twitter.com/rioferdy5/status/727910331390038016/video/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 720,
+					"h": 406,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 192,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727910237689286700,
+			"id_str": "727910237689286657",
+			"indices": [65, 88],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727910237689286657/pu/img/S7F4VyV4bAO5p6aS.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727910237689286657/pu/img/S7F4VyV4bAO5p6aS.jpg",
+			"url": "https://t.co/itnYDzw0xI",
+			"display_url": "pic.twitter.com/itnYDzw0xI",
+			"expanded_url": "http://twitter.com/rioferdy5/status/727910331390038016/video/1",
+			"type": "video",
+			"sizes": {
+				"large": {
+					"w": 720,
+					"h": 406,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 192,
+					"resize": "fit"
+				}
+			},
+			"video_info": {
+				"aspect_ratio": [360, 203],
+				"duration_millis": 16533,
+				"variants": [{
+					"bitrate": 832000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727910237689286657/pu/vid/638x360/0-uvSLyiRjRM5BbU.mp4"
+				}, {
+					"content_type": "application/x-mpegURL",
+					"url": "https://video.twimg.com/ext_tw_video/727910237689286657/pu/pl/xvHs9zPlWyQwl60G.m3u8"
+				}, {
+					"bitrate": 320000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727910237689286657/pu/vid/318x180/VyOxh3tu6EujJkCJ.mp4"
+				}, {
+					"content_type": "application/dash+xml",
+					"url": "https://video.twimg.com/ext_tw_video/727910237689286657/pu/pl/xvHs9zPlWyQwl60G.mpd"
+				}]
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 155927976,
+		"id_str": "155927976",
+		"name": "Rio Ferdinand",
+		"screen_name": "rioferdy5",
+		"location": "London, England",
+		"description": "Official Twitter account of Rio Ferdinand / Media Enquiries - info@neweraglobalsports.com / https://t.co/9hI5ihb0LY",
+		"url": "https://t.co/LSjQoVaFJ4",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/LSjQoVaFJ4",
+					"expanded_url": "http://www.5mag.co",
+					"display_url": "5mag.co",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": [{
+					"url": "https://t.co/9hI5ihb0LY",
+					"expanded_url": "http://Instagram.com/rioferdy5",
+					"display_url": "Instagram.com/rioferdy5",
+					"indices": [92, 115]
+				}]
+			}
+		},
+		"protected": false,
+		"followers_count": 6898409,
+		"friends_count": 480,
+		"listed_count": 22095,
+		"created_at": "Tue Jun 15 14:47:40 +0000 2010",
+		"favourites_count": 690,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 16590,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "271E16",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/155927976/1457431294",
+		"profile_link_color": "BD0404",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "F3F3F3",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 323,
+	"favorite_count": 652,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 17:18:01 +0000 2016",
+	"id": 727910162250510300,
+	"id_str": "727910162250510338",
+	"text": "RT @SergiDarder: Journée Foot Solidaire le 8 Mai 💪🏻⚽️🔴🔵 #futbol #football #solidaire #allez #lyon #teamol #play #team #help https://t.co/MC…",
+	"entities": {
+		"hashtags": [{
+			"text": "futbol",
+			"indices": [56, 63]
+		}, {
+			"text": "football",
+			"indices": [64, 73]
+		}, {
+			"text": "solidaire",
+			"indices": [74, 84]
+		}, {
+			"text": "allez",
+			"indices": [85, 91]
+		}, {
+			"text": "lyon",
+			"indices": [92, 97]
+		}, {
+			"text": "teamol",
+			"indices": [98, 105]
+		}, {
+			"text": "play",
+			"indices": [106, 111]
+		}, {
+			"text": "team",
+			"indices": [112, 117]
+		}, {
+			"text": "help",
+			"indices": [118, 123]
+		}],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "SergiDarder",
+			"name": "Sergi Darder Moll",
+			"id": 484797231,
+			"id_str": "484797231",
+			"indices": [3, 15]
+		}],
+		"urls": [],
+		"media": [{
+			"id": 727908908271063000,
+			"id_str": "727908908271063040",
+			"indices": [124, 140],
+			"media_url": "http://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+			"url": "https://t.co/MCMu1tvLjr",
+			"display_url": "pic.twitter.com/MCMu1tvLjr",
+			"expanded_url": "http://twitter.com/SergiDarder/status/727909005906067459/photo/1",
+			"type": "photo",
+			"sizes": {
+				"small": {
+					"w": 340,
+					"h": 472,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 834,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 691,
+					"h": 960,
+					"resize": "fit"
+				}
+			},
+			"source_status_id": 727909005906067500,
+			"source_status_id_str": "727909005906067459",
+			"source_user_id": 484797231,
+			"source_user_id_str": "484797231"
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727908908271063000,
+			"id_str": "727908908271063040",
+			"indices": [124, 140],
+			"media_url": "http://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+			"url": "https://t.co/MCMu1tvLjr",
+			"display_url": "pic.twitter.com/MCMu1tvLjr",
+			"expanded_url": "http://twitter.com/SergiDarder/status/727909005906067459/photo/1",
+			"type": "photo",
+			"sizes": {
+				"small": {
+					"w": 340,
+					"h": 472,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 834,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 691,
+					"h": 960,
+					"resize": "fit"
+				}
+			},
+			"source_status_id": 727909005906067500,
+			"source_status_id_str": "727909005906067459",
+			"source_user_id": 484797231,
+			"source_user_id_str": "484797231"
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 2905172500,
+		"id_str": "2905172500",
+		"name": "Rafael da Silva",
+		"screen_name": "orafa2",
+		"location": "",
+		"description": "Football player, happy, in harmony with life and family. Pleasure to meet you! Jogador de futebol, feliz, de bem com a vida e familia. snapchat: rafaelds",
+		"url": "https://t.co/QU3riN1ubx",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/QU3riN1ubx",
+					"expanded_url": "https://facebook.com/orafa2",
+					"display_url": "facebook.com/orafa2",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 237688,
+		"friends_count": 225,
+		"listed_count": 671,
+		"created_at": "Thu Dec 04 14:39:26 +0000 2014",
+		"favourites_count": 393,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 289,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/655284125826469888/VJkkbZ9D_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/655284125826469888/VJkkbZ9D_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/2905172500/1440840431",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"retweeted_status": {
+		"created_at": "Wed May 04 17:13:25 +0000 2016",
+		"id": 727909005906067500,
+		"id_str": "727909005906067459",
+		"text": "Journée Foot Solidaire le 8 Mai 💪🏻⚽️🔴🔵 #futbol #football #solidaire #allez #lyon #teamol #play #team #help https://t.co/MCMu1tvLjr",
+		"entities": {
+			"hashtags": [{
+				"text": "futbol",
+				"indices": [39, 46]
+			}, {
+				"text": "football",
+				"indices": [47, 56]
+			}, {
+				"text": "solidaire",
+				"indices": [57, 67]
+			}, {
+				"text": "allez",
+				"indices": [68, 74]
+			}, {
+				"text": "lyon",
+				"indices": [75, 80]
+			}, {
+				"text": "teamol",
+				"indices": [81, 88]
+			}, {
+				"text": "play",
+				"indices": [89, 94]
+			}, {
+				"text": "team",
+				"indices": [95, 100]
+			}, {
+				"text": "help",
+				"indices": [101, 106]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [],
+			"media": [{
+				"id": 727908908271063000,
+				"id_str": "727908908271063040",
+				"indices": [107, 130],
+				"media_url": "http://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+				"url": "https://t.co/MCMu1tvLjr",
+				"display_url": "pic.twitter.com/MCMu1tvLjr",
+				"expanded_url": "http://twitter.com/SergiDarder/status/727909005906067459/photo/1",
+				"type": "photo",
+				"sizes": {
+					"small": {
+						"w": 340,
+						"h": 472,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 834,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 691,
+						"h": 960,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 727908908271063000,
+				"id_str": "727908908271063040",
+				"indices": [107, 130],
+				"media_url": "http://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChoNS6JW0AATtt8.jpg",
+				"url": "https://t.co/MCMu1tvLjr",
+				"display_url": "pic.twitter.com/MCMu1tvLjr",
+				"expanded_url": "http://twitter.com/SergiDarder/status/727909005906067459/photo/1",
+				"type": "photo",
+				"sizes": {
+					"small": {
+						"w": 340,
+						"h": 472,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"medium": {
+						"w": 600,
+						"h": 834,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 691,
+						"h": 960,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 484797231,
+			"id_str": "484797231",
+			"name": "Sergi Darder Moll",
+			"screen_name": "SergiDarder",
+			"location": "",
+			"description": "Nacido en Mallorca (Artà). Jugador del Olympique Lyonnais. Internacional sub 21 por España",
+			"url": "https://t.co/TtLbLTBcZM",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "https://t.co/TtLbLTBcZM",
+						"expanded_url": "http://www.sergidarder.com",
+						"display_url": "sergidarder.com",
+						"indices": [0, 23]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 26631,
+			"friends_count": 223,
+			"listed_count": 156,
+			"created_at": "Mon Feb 06 14:09:10 +0000 2012",
+			"favourites_count": 257,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": true,
+			"verified": true,
+			"statuses_count": 857,
+			"lang": "es",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/666631729294221312/3HYlUcvS_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/666631729294221312/3HYlUcvS_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/484797231/1449073708",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 36,
+		"favorite_count": 46,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "fr"
+	},
+	"is_quote_status": false,
+	"retweet_count": 36,
+	"favorite_count": 0,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "fr"
+}, {
+	"created_at": "Wed May 04 16:51:41 +0000 2016",
+	"id": 727903534742655000,
+	"id_str": "727903534742654976",
+	"text": "A good sunny afternoon to practice the service 🎾 Am I ready for Wimbledon?😂 https://t.co/eTbOn3XEN0",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [],
+		"media": [{
+			"id": 727903321462280200,
+			"id_str": "727903321462280192",
+			"indices": [76, 99],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727903321462280192/pu/img/4mmEvvakQbFzo479.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727903321462280192/pu/img/4mmEvvakQbFzo479.jpg",
+			"url": "https://t.co/eTbOn3XEN0",
+			"display_url": "pic.twitter.com/eTbOn3XEN0",
+			"expanded_url": "http://twitter.com/D_DeGea/status/727903534742654976/video/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 720,
+					"h": 406,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 192,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727903321462280200,
+			"id_str": "727903321462280192",
+			"indices": [76, 99],
+			"media_url": "http://pbs.twimg.com/ext_tw_video_thumb/727903321462280192/pu/img/4mmEvvakQbFzo479.jpg",
+			"media_url_https": "https://pbs.twimg.com/ext_tw_video_thumb/727903321462280192/pu/img/4mmEvvakQbFzo479.jpg",
+			"url": "https://t.co/eTbOn3XEN0",
+			"display_url": "pic.twitter.com/eTbOn3XEN0",
+			"expanded_url": "http://twitter.com/D_DeGea/status/727903534742654976/video/1",
+			"type": "video",
+			"sizes": {
+				"large": {
+					"w": 720,
+					"h": 406,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 338,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 192,
+					"resize": "fit"
+				}
+			},
+			"video_info": {
+				"aspect_ratio": [360, 203],
+				"duration_millis": 19973,
+				"variants": [{
+					"bitrate": 320000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727903321462280192/pu/vid/318x180/BNFMZQn2R0hkDugj.mp4"
+				}, {
+					"bitrate": 832000,
+					"content_type": "video/mp4",
+					"url": "https://video.twimg.com/ext_tw_video/727903321462280192/pu/vid/638x360/JG2M2PetNllEn-t1.mp4"
+				}, {
+					"content_type": "application/x-mpegURL",
+					"url": "https://video.twimg.com/ext_tw_video/727903321462280192/pu/pl/LurmE5rzuOIZEwuo.m3u8"
+				}, {
+					"content_type": "application/dash+xml",
+					"url": "https://video.twimg.com/ext_tw_video/727903321462280192/pu/pl/LurmE5rzuOIZEwuo.mpd"
+				}]
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 265982289,
+		"id_str": "265982289",
+		"name": "David De Gea",
+		"screen_name": "D_DeGea",
+		"location": "",
+		"description": "",
+		"url": "https://t.co/9MZmmaggbK",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/9MZmmaggbK",
+					"expanded_url": "http://degea1.com",
+					"display_url": "degea1.com",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 5318900,
+		"friends_count": 189,
+		"listed_count": 11056,
+		"created_at": "Mon Mar 14 13:03:14 +0000 2011",
+		"favourites_count": 43,
+		"utc_offset": 10800,
+		"time_zone": "Athens",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 1502,
+		"lang": "es",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/217460334/ib2dea77f9e4d0cac11847f05a49a0d86-getty-fbl-esp-copa-real_madrid-atletico_madrid.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/217460334/ib2dea77f9e4d0cac11847f05a49a0d86-getty-fbl-esp-copa-real_madrid-atletico_madrid.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/683435297716219905/eiTHEPPw_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/683435297716219905/eiTHEPPw_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/265982289/1442497223",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": false,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 1316,
+	"favorite_count": 3297,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 13:29:17 +0000 2016",
+	"id": 727852599932796900,
+	"id_str": "727852599932796928",
+	"text": "#JederFuerJeden https://t.co/Gpt7dofMP1",
+	"entities": {
+		"hashtags": [{
+			"text": "JederFuerJeden",
+			"indices": [0, 15]
+		}],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [],
+		"media": [{
+			"id": 727852591569342500,
+			"id_str": "727852591569342465",
+			"indices": [16, 39],
+			"media_url": "http://pbs.twimg.com/media/ChnaE2FWkAErfvD.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/ChnaE2FWkAErfvD.jpg",
+			"url": "https://t.co/Gpt7dofMP1",
+			"display_url": "pic.twitter.com/Gpt7dofMP1",
+			"expanded_url": "http://twitter.com/BSchweinsteiger/status/727852599932796928/photo/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 1024,
+					"h": 641,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 375,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 213,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727852591569342500,
+			"id_str": "727852591569342465",
+			"indices": [16, 39],
+			"media_url": "http://pbs.twimg.com/media/ChnaE2FWkAErfvD.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/ChnaE2FWkAErfvD.jpg",
+			"url": "https://t.co/Gpt7dofMP1",
+			"display_url": "pic.twitter.com/Gpt7dofMP1",
+			"expanded_url": "http://twitter.com/BSchweinsteiger/status/727852599932796928/photo/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 1024,
+					"h": 641,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 375,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 213,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 1283561876,
+		"id_str": "1283561876",
+		"name": "Basti Schweinsteiger",
+		"screen_name": "BSchweinsteiger",
+		"location": "Germany",
+		"description": "Official Twitter account of Bastian Schweinsteiger - football player for @ManUtd and captain of @DFB_Team.",
+		"url": "http://t.co/uNhCfqqKvO",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "http://t.co/uNhCfqqKvO",
+					"expanded_url": "http://www.bastian-schweinsteiger.de/impressum/?box=279",
+					"display_url": "bastian-schweinsteiger.de/impressum/?box…",
+					"indices": [0, 22]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 3151565,
+		"friends_count": 102,
+		"listed_count": 5072,
+		"created_at": "Wed Mar 20 15:29:50 +0000 2013",
+		"favourites_count": 8,
+		"utc_offset": 10800,
+		"time_zone": "Athens",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 556,
+		"lang": "de",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "131516",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/378800000167956632/dHcggE_q.jpeg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/378800000167956632/dHcggE_q.jpeg",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/687664928216449024/mEA7sHld_normal.png",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/687664928216449024/mEA7sHld_normal.png",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/1283561876/1452787108",
+		"profile_link_color": "009999",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "EFEFEF",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 287,
+	"favorite_count": 1185,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "und"
+}, {
+	"created_at": "Wed May 04 11:46:13 +0000 2016",
+	"id": 727826661345996800,
+	"id_str": "727826661345996801",
+	"text": "The @England team play Portugal in their #Toulon2016 opener. Follow @TournoiToulon to see the stars of tomorrow. https://t.co/oZwmh8c6RH",
+	"entities": {
+		"hashtags": [{
+			"text": "Toulon2016",
+			"indices": [41, 52]
+		}],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "england",
+			"name": "England",
+			"id": 1903382054,
+			"id_str": "1903382054",
+			"indices": [4, 12]
+		}, {
+			"screen_name": "TournoiToulon",
+			"name": "Toulon Tournament",
+			"id": 1359314792,
+			"id_str": "1359314792",
+			"indices": [68, 82]
+		}],
+		"urls": [{
+			"url": "https://t.co/oZwmh8c6RH",
+			"expanded_url": "http://bit.ly/1Uw4TOP",
+			"display_url": "bit.ly/1Uw4TOP",
+			"indices": [113, 136]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 216264820,
+		"id_str": "216264820",
+		"name": "michael owen",
+		"screen_name": "themichaelowen",
+		"location": "UK",
+		"description": "The Official Twitter Account of Michael Owen",
+		"url": "http://t.co/sMgLle37KC",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "http://t.co/sMgLle37KC",
+					"expanded_url": "http://michaelowen.com",
+					"display_url": "michaelowen.com",
+					"indices": [0, 22]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 3478958,
+		"friends_count": 411,
+		"listed_count": 11590,
+		"created_at": "Tue Nov 16 06:15:01 +0000 2010",
+		"favourites_count": 6,
+		"utc_offset": 3600,
+		"time_zone": "London",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 11895,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "C9B699",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/490997085/Twitter_Backdrop.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/490997085/Twitter_Backdrop.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/719928654642483205/aTlEX_Ae_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/719928654642483205/aTlEX_Ae_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/216264820/1402676898",
+		"profile_link_color": "AB5000",
+		"profile_sidebar_border_color": "EEEEEE",
+		"profile_sidebar_fill_color": "EFEFEF",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 7,
+	"favorite_count": 39,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 11:32:13 +0000 2016",
+	"id": 727823140890378200,
+	"id_str": "727823140890378240",
+	"text": "Blogを更新しました。 香川真司 公式ブログ : 日々の生活 https://t.co/26DeeDaSte https://t.co/dSh3OGgtYn",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/26DeeDaSte",
+			"expanded_url": "http://lineblog.me/kagawa/archives/59446262.html",
+			"display_url": "lineblog.me/kagawa/archive…",
+			"indices": [32, 55]
+		}],
+		"media": [{
+			"id": 727823140613591000,
+			"id_str": "727823140613591041",
+			"indices": [56, 79],
+			"media_url": "http://pbs.twimg.com/media/Chm_SkuVEAE4BJ5.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/Chm_SkuVEAE4BJ5.jpg",
+			"url": "https://t.co/dSh3OGgtYn",
+			"display_url": "pic.twitter.com/dSh3OGgtYn",
+			"expanded_url": "http://twitter.com/S_Kagawa0317/status/727823140890378240/photo/1",
+			"type": "photo",
+			"sizes": {
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"small": {
+					"w": 340,
+					"h": 453,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 495,
+					"h": 660,
+					"resize": "fit"
+				},
+				"medium": {
+					"w": 495,
+					"h": 660,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727823140613591000,
+			"id_str": "727823140613591041",
+			"indices": [56, 79],
+			"media_url": "http://pbs.twimg.com/media/Chm_SkuVEAE4BJ5.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/Chm_SkuVEAE4BJ5.jpg",
+			"url": "https://t.co/dSh3OGgtYn",
+			"display_url": "pic.twitter.com/dSh3OGgtYn",
+			"expanded_url": "http://twitter.com/S_Kagawa0317/status/727823140890378240/photo/1",
+			"type": "photo",
+			"sizes": {
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"small": {
+					"w": 340,
+					"h": 453,
+					"resize": "fit"
+				},
+				"large": {
+					"w": 495,
+					"h": 660,
+					"resize": "fit"
+				},
+				"medium": {
+					"w": 495,
+					"h": 660,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://blogpark.jp/\" rel=\"nofollow\">ブロガーアライアンス</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 1126887589,
+		"id_str": "1126887589",
+		"name": "SHINJI KAGAWA / 香川真司",
+		"screen_name": "S_Kagawa0317",
+		"location": "",
+		"description": "Shinji Kagawa / Borussia Dortmund No.23",
+		"url": "https://t.co/Qf5cmXUSYP",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/Qf5cmXUSYP",
+					"expanded_url": "http://www.kagawashinji.com/",
+					"display_url": "kagawashinji.com",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1210510,
+		"friends_count": 75,
+		"listed_count": 6396,
+		"created_at": "Mon Jan 28 03:20:01 +0000 2013",
+		"favourites_count": 0,
+		"utc_offset": 3600,
+		"time_zone": "London",
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 368,
+		"lang": "ja",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/665158727796850688/zFdNReQB_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/665158727796850688/zFdNReQB_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/1126887589/1451724161",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 565,
+	"favorite_count": 2266,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "ja"
+}, {
+	"created_at": "Wed May 04 10:08:27 +0000 2016",
+	"id": 727802057227407400,
+	"id_str": "727802057227407360",
+	"text": "Could do with playing in them! Yes no problem christine https://t.co/ycCHy3wlYX",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/ycCHy3wlYX",
+			"expanded_url": "https://twitter.com/chrissielouenid/status/727776289042599937",
+			"display_url": "twitter.com/chrissieloueni…",
+			"indices": [56, 79]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 283894108,
+		"id_str": "283894108",
+		"name": "Philip Neville",
+		"screen_name": "fizzer18",
+		"location": "",
+		"description": "@NikeUK athlete ex man utd and everton player now @valenciacf Assistant Coach",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1343700,
+		"friends_count": 564,
+		"listed_count": 4732,
+		"created_at": "Mon Apr 18 06:46:30 +0000 2011",
+		"favourites_count": 5029,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 14813,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "EBC1CF",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/283894108/1447784209",
+		"profile_link_color": "B30024",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727776289042600000,
+	"quoted_status_id_str": "727776289042599937",
+	"quoted_status": {
+		"created_at": "Wed May 04 08:26:03 +0000 2016",
+		"id": 727776289042600000,
+		"id_str": "727776289042599937",
+		"text": "@fizzer18 any chance of signing these for me at  @socceraid ? #classof92 https://t.co/fcMpX6PVjw",
+		"entities": {
+			"hashtags": [{
+				"text": "classof92",
+				"indices": [62, 72]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "fizzer18",
+				"name": "Philip Neville",
+				"id": 283894108,
+				"id_str": "283894108",
+				"indices": [0, 9]
+			}, {
+				"screen_name": "socceraid",
+				"name": "Soccer Aid",
+				"id": 116729547,
+				"id_str": "116729547",
+				"indices": [49, 59]
+			}],
+			"urls": [],
+			"media": [{
+				"id": 727776232645988400,
+				"id_str": "727776232645988352",
+				"indices": [73, 96],
+				"media_url": "http://pbs.twimg.com/media/ChmUoK7WEAAZ1Li.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChmUoK7WEAAZ1Li.jpg",
+				"url": "https://t.co/fcMpX6PVjw",
+				"display_url": "pic.twitter.com/fcMpX6PVjw",
+				"expanded_url": "http://twitter.com/chrissielouenid/status/727776289042599937/photo/1",
+				"type": "photo",
+				"sizes": {
+					"medium": {
+						"w": 600,
+						"h": 600,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 340,
+						"h": 340,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 1024,
+						"h": 1024,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 727776232645988400,
+				"id_str": "727776232645988352",
+				"indices": [73, 96],
+				"media_url": "http://pbs.twimg.com/media/ChmUoK7WEAAZ1Li.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChmUoK7WEAAZ1Li.jpg",
+				"url": "https://t.co/fcMpX6PVjw",
+				"display_url": "pic.twitter.com/fcMpX6PVjw",
+				"expanded_url": "http://twitter.com/chrissielouenid/status/727776289042599937/photo/1",
+				"type": "photo",
+				"sizes": {
+					"medium": {
+						"w": 600,
+						"h": 600,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 340,
+						"h": 340,
+						"resize": "fit"
+					},
+					"large": {
+						"w": 1024,
+						"h": 1024,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": 283894108,
+		"in_reply_to_user_id_str": "283894108",
+		"in_reply_to_screen_name": "fizzer18",
+		"user": {
+			"id": 82106947,
+			"id_str": "82106947",
+			"name": "christine russell",
+			"screen_name": "chrissielouenid",
+			"location": "",
+			"description": "sport crazy, northern girl who is more than a little strange!",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 192,
+			"friends_count": 632,
+			"listed_count": 1,
+			"created_at": "Tue Oct 13 14:27:00 +0000 2009",
+			"favourites_count": 2537,
+			"utc_offset": 3600,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 3644,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/591999262566809600/TXrKOdw-_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/591999262566809600/TXrKOdw-_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/82106947/1427036871",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 9,
+	"favorite_count": 16,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 10:07:07 +0000 2016",
+	"id": 727801725667688400,
+	"id_str": "727801725667688448",
+	"text": "The @TournoiToulon fixtures have been announced. @England will play Portugal in their opening game. #Toulon2016 https://t.co/BlzrCNNthw",
+	"entities": {
+		"hashtags": [{
+			"text": "Toulon2016",
+			"indices": [100, 111]
+		}],
+		"symbols": [],
+		"user_mentions": [{
+			"screen_name": "TournoiToulon",
+			"name": "Toulon Tournament",
+			"id": 1359314792,
+			"id_str": "1359314792",
+			"indices": [4, 18]
+		}, {
+			"screen_name": "england",
+			"name": "England",
+			"id": 1903382054,
+			"id_str": "1903382054",
+			"indices": [49, 57]
+		}],
+		"urls": [],
+		"media": [{
+			"id": 727801706373877800,
+			"id_str": "727801706373877760",
+			"indices": [112, 135],
+			"media_url": "http://pbs.twimg.com/media/Chmry79WkAAbj-A.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/Chmry79WkAAbj-A.jpg",
+			"url": "https://t.co/BlzrCNNthw",
+			"display_url": "pic.twitter.com/BlzrCNNthw",
+			"expanded_url": "http://twitter.com/fizzer18/status/727801725667688448/photo/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 711,
+					"h": 889,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 425,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 750,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"extended_entities": {
+		"media": [{
+			"id": 727801706373877800,
+			"id_str": "727801706373877760",
+			"indices": [112, 135],
+			"media_url": "http://pbs.twimg.com/media/Chmry79WkAAbj-A.jpg",
+			"media_url_https": "https://pbs.twimg.com/media/Chmry79WkAAbj-A.jpg",
+			"url": "https://t.co/BlzrCNNthw",
+			"display_url": "pic.twitter.com/BlzrCNNthw",
+			"expanded_url": "http://twitter.com/fizzer18/status/727801725667688448/photo/1",
+			"type": "photo",
+			"sizes": {
+				"large": {
+					"w": 711,
+					"h": 889,
+					"resize": "fit"
+				},
+				"small": {
+					"w": 340,
+					"h": 425,
+					"resize": "fit"
+				},
+				"thumb": {
+					"w": 150,
+					"h": 150,
+					"resize": "crop"
+				},
+				"medium": {
+					"w": 600,
+					"h": 750,
+					"resize": "fit"
+				}
+			}
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 283894108,
+		"id_str": "283894108",
+		"name": "Philip Neville",
+		"screen_name": "fizzer18",
+		"location": "",
+		"description": "@NikeUK athlete ex man utd and everton player now @valenciacf Assistant Coach",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1343700,
+		"friends_count": 564,
+		"listed_count": 4732,
+		"created_at": "Mon Apr 18 06:46:30 +0000 2011",
+		"favourites_count": 5029,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 14813,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "EBC1CF",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/283894108/1447784209",
+		"profile_link_color": "B30024",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 24,
+	"favorite_count": 44,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 10:06:59 +0000 2016",
+	"id": 727801692251689000,
+	"id_str": "727801692251688960",
+	"text": "Looking forward to watching this #SoccerAid  https://t.co/U6ryxqhzTn",
+	"entities": {
+		"hashtags": [{
+			"text": "SoccerAid",
+			"indices": [33, 43]
+		}],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/U6ryxqhzTn",
+			"expanded_url": "https://twitter.com/socceraid/status/727796538865528832",
+			"display_url": "twitter.com/socceraid/stat…",
+			"indices": [45, 68]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 285332860,
+		"id_str": "285332860",
+		"name": "Wayne Rooney",
+		"screen_name": "WayneRooney",
+		"location": "",
+		"description": "@NikeUK athlete https://t.co/3yp07llC6E @triplessports",
+		"url": "https://t.co/tvLKijsk1i",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/tvLKijsk1i",
+					"expanded_url": "http://waynerooney.com",
+					"display_url": "waynerooney.com",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": [{
+					"url": "https://t.co/3yp07llC6E",
+					"expanded_url": "https://www.facebook.com/WayneRooney",
+					"display_url": "facebook.com/WayneRooney",
+					"indices": [16, 39]
+				}]
+			}
+		},
+		"protected": false,
+		"followers_count": 12914170,
+		"friends_count": 325,
+		"listed_count": 30627,
+		"created_at": "Wed Apr 20 23:47:12 +0000 2011",
+		"favourites_count": 94,
+		"utc_offset": -36000,
+		"time_zone": "Hawaii",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 1827,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "C0DEED",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/616670087584595968/TPhDi_e1_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/616670087584595968/TPhDi_e1_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/285332860/1456331701",
+		"profile_link_color": "0084B4",
+		"profile_sidebar_border_color": "C0DEED",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": true,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727796538865528800,
+	"quoted_status_id_str": "727796538865528832",
+	"quoted_status": {
+		"created_at": "Wed May 04 09:46:31 +0000 2016",
+		"id": 727796538865528800,
+		"id_str": "727796538865528832",
+		"text": "Be part of #SoccerAid Sunday 5th June, Old Trafford! Tickets are going quick! https://t.co/2WSB5Ah62A https://t.co/nkdvKC3tPf",
+		"entities": {
+			"hashtags": [{
+				"text": "SoccerAid",
+				"indices": [11, 21]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": [{
+				"url": "https://t.co/2WSB5Ah62A",
+				"expanded_url": "http://Manutd.com/socceraid",
+				"display_url": "Manutd.com/socceraid",
+				"indices": [78, 101]
+			}],
+			"media": [{
+				"id": 727796537712123900,
+				"id_str": "727796537712123905",
+				"indices": [102, 125],
+				"media_url": "http://pbs.twimg.com/media/ChmnGFMXIAEEheB.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChmnGFMXIAEEheB.jpg",
+				"url": "https://t.co/nkdvKC3tPf",
+				"display_url": "pic.twitter.com/nkdvKC3tPf",
+				"expanded_url": "http://twitter.com/socceraid/status/727796538865528832/photo/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 709,
+						"h": 374,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 340,
+						"h": 179,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 600,
+						"h": 317,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 727796537712123900,
+				"id_str": "727796537712123905",
+				"indices": [102, 125],
+				"media_url": "http://pbs.twimg.com/media/ChmnGFMXIAEEheB.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/ChmnGFMXIAEEheB.jpg",
+				"url": "https://t.co/nkdvKC3tPf",
+				"display_url": "pic.twitter.com/nkdvKC3tPf",
+				"expanded_url": "http://twitter.com/socceraid/status/727796538865528832/photo/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 709,
+						"h": 374,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					},
+					"small": {
+						"w": 340,
+						"h": 179,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 600,
+						"h": 317,
+						"resize": "fit"
+					}
+				}
+			}]
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com\" rel=\"nofollow\">Twitter Web Client</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 116729547,
+			"id_str": "116729547",
+			"name": "Soccer Aid",
+			"screen_name": "socceraid",
+			"location": "London, UK",
+			"description": "Official site of Soccer Aid 2016 for Unicef UK. Sunday 5th June, Old Trafford",
+			"url": "https://t.co/3dVvbecDKs",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "https://t.co/3dVvbecDKs",
+						"expanded_url": "http://manutd.com/socceraid",
+						"display_url": "manutd.com/socceraid",
+						"indices": [0, 23]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 74799,
+			"friends_count": 65,
+			"listed_count": 162,
+			"created_at": "Tue Feb 23 12:02:11 +0000 2010",
+			"favourites_count": 393,
+			"utc_offset": 3600,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": true,
+			"statuses_count": 5899,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/415708687/SA_Logo.jpg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/415708687/SA_Logo.jpg",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/673877649777958912/WgIfxuha_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/673877649777958912/WgIfxuha_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/116729547/1460728423",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 117,
+		"favorite_count": 370,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 147,
+	"favorite_count": 509,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 08:58:28 +0000 2016",
+	"id": 727784446657695700,
+	"id_str": "727784446657695744",
+	"text": "Snow on the mountains out there....⛷ https://t.co/7ZYCUAPydg",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/7ZYCUAPydg",
+			"expanded_url": "https://www.instagram.com/p/BE-r6bDtg7h/",
+			"display_url": "instagram.com/p/BE-r6bDtg7h/",
+			"indices": [37, 60]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://instagram.com\" rel=\"nofollow\">Instagram</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 155927976,
+		"id_str": "155927976",
+		"name": "Rio Ferdinand",
+		"screen_name": "rioferdy5",
+		"location": "London, England",
+		"description": "Official Twitter account of Rio Ferdinand / Media Enquiries - info@neweraglobalsports.com / https://t.co/9hI5ihb0LY",
+		"url": "https://t.co/LSjQoVaFJ4",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "https://t.co/LSjQoVaFJ4",
+					"expanded_url": "http://www.5mag.co",
+					"display_url": "5mag.co",
+					"indices": [0, 23]
+				}]
+			},
+			"description": {
+				"urls": [{
+					"url": "https://t.co/9hI5ihb0LY",
+					"expanded_url": "http://Instagram.com/rioferdy5",
+					"display_url": "Instagram.com/rioferdy5",
+					"indices": [92, 115]
+				}]
+			}
+		},
+		"protected": false,
+		"followers_count": 6898409,
+		"friends_count": 480,
+		"listed_count": 22095,
+		"created_at": "Tue Jun 15 14:47:40 +0000 2010",
+		"favourites_count": 690,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": true,
+		"verified": true,
+		"statuses_count": 16590,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "271E16",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/139658659/TwitterRioFerdy5.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/710402807489236992/NnIHNX4G_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/155927976/1457431294",
+		"profile_link_color": "BD0404",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "F3F3F3",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"is_quote_status": false,
+	"retweet_count": 19,
+	"favorite_count": 107,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 07:19:41 +0000 2016",
+	"id": 727759589102497800,
+	"id_str": "727759589102497792",
+	"text": "Hahaah https://t.co/F4KnyvKFoQ",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/F4KnyvKFoQ",
+			"expanded_url": "https://twitter.com/MikeNFitness/status/727758702372130816",
+			"display_url": "twitter.com/MikeNFitness/s…",
+			"indices": [7, 30]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 283894108,
+		"id_str": "283894108",
+		"name": "Philip Neville",
+		"screen_name": "fizzer18",
+		"location": "",
+		"description": "@NikeUK athlete ex man utd and everton player now @valenciacf Assistant Coach",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1343700,
+		"friends_count": 564,
+		"listed_count": 4732,
+		"created_at": "Mon Apr 18 06:46:30 +0000 2011",
+		"favourites_count": 5029,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 14813,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "EBC1CF",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/283894108/1447784209",
+		"profile_link_color": "B30024",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727758702372130800,
+	"quoted_status_id_str": "727758702372130816",
+	"quoted_status": {
+		"created_at": "Wed May 04 07:16:10 +0000 2016",
+		"id": 727758702372130800,
+		"id_str": "727758702372130816",
+		"text": "@fizzer18 your going soft. Good northern rain is what you need.",
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "fizzer18",
+				"name": "Philip Neville",
+				"id": 283894108,
+				"id_str": "283894108",
+				"indices": [0, 9]
+			}],
+			"urls": []
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": 727758522658766800,
+		"in_reply_to_status_id_str": "727758522658766848",
+		"in_reply_to_user_id": 283894108,
+		"in_reply_to_user_id_str": "283894108",
+		"in_reply_to_screen_name": "fizzer18",
+		"user": {
+			"id": 1258830548,
+			"id_str": "1258830548",
+			"name": "Mike Nolan Fitness",
+			"screen_name": "MikeNFitness",
+			"location": "Cheshire & Manchester",
+			"description": "Personal training & cycle coaching: loving and living personal training since 1995",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 183,
+			"friends_count": 173,
+			"listed_count": 1,
+			"created_at": "Mon Mar 11 07:25:18 +0000 2013",
+			"favourites_count": 18,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 527,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 2,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 3,
+	"favorite_count": 14,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "it"
+}, {
+	"created_at": "Wed May 04 07:15:27 +0000 2016",
+	"id": 727758522658766800,
+	"id_str": "727758522658766848",
+	"text": "Ahhaha only 21oc today got my coat on! https://t.co/AgpRk6SNzp",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/AgpRk6SNzp",
+			"expanded_url": "https://twitter.com/MikeNFitness/status/727758257356472320",
+			"display_url": "twitter.com/MikeNFitness/s…",
+			"indices": [39, 62]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 283894108,
+		"id_str": "283894108",
+		"name": "Philip Neville",
+		"screen_name": "fizzer18",
+		"location": "",
+		"description": "@NikeUK athlete ex man utd and everton player now @valenciacf Assistant Coach",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1343700,
+		"friends_count": 564,
+		"listed_count": 4732,
+		"created_at": "Mon Apr 18 06:46:30 +0000 2011",
+		"favourites_count": 5029,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 14813,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "EBC1CF",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/283894108/1447784209",
+		"profile_link_color": "B30024",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727758257356472300,
+	"quoted_status_id_str": "727758257356472320",
+	"quoted_status": {
+		"created_at": "Wed May 04 07:14:24 +0000 2016",
+		"id": 727758257356472300,
+		"id_str": "727758257356472320",
+		"text": "@fizzer18 hey man. Missing you baby. Hows the sunshine? At least now you have an excuse for streaks in your hair #80sstyle",
+		"entities": {
+			"hashtags": [{
+				"text": "80sstyle",
+				"indices": [113, 122]
+			}],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "fizzer18",
+				"name": "Philip Neville",
+				"id": 283894108,
+				"id_str": "283894108",
+				"indices": [0, 9]
+			}],
+			"urls": []
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": 727757563857645600,
+		"in_reply_to_status_id_str": "727757563857645568",
+		"in_reply_to_user_id": 283894108,
+		"in_reply_to_user_id_str": "283894108",
+		"in_reply_to_screen_name": "fizzer18",
+		"user": {
+			"id": 1258830548,
+			"id_str": "1258830548",
+			"name": "Mike Nolan Fitness",
+			"screen_name": "MikeNFitness",
+			"location": "Cheshire & Manchester",
+			"description": "Personal training & cycle coaching: loving and living personal training since 1995",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 183,
+			"friends_count": 173,
+			"listed_count": 1,
+			"created_at": "Mon Mar 11 07:25:18 +0000 2013",
+			"favourites_count": 18,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 527,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 0,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 2,
+	"favorite_count": 14,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}, {
+	"created_at": "Wed May 04 07:11:38 +0000 2016",
+	"id": 727757563857645600,
+	"id_str": "727757563857645568",
+	"text": "Muy importante Mike ahhaha https://t.co/u1zOUBnq5Z",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/u1zOUBnq5Z",
+			"expanded_url": "https://twitter.com/MikeNFitness/status/727756817539928065",
+			"display_url": "twitter.com/MikeNFitness/s…",
+			"indices": [27, 50]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/android\" rel=\"nofollow\">Twitter for Android</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 283894108,
+		"id_str": "283894108",
+		"name": "Philip Neville",
+		"screen_name": "fizzer18",
+		"location": "",
+		"description": "@NikeUK athlete ex man utd and everton player now @valenciacf Assistant Coach",
+		"url": null,
+		"entities": {
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 1343700,
+		"friends_count": 564,
+		"listed_count": 4732,
+		"created_at": "Mon Apr 18 06:46:30 +0000 2011",
+		"favourites_count": 5029,
+		"utc_offset": null,
+		"time_zone": null,
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 14813,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": false,
+		"profile_background_color": "EBC1CF",
+		"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+		"profile_background_tile": true,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/723893297282977792/TctSPqYa_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/283894108/1447784209",
+		"profile_link_color": "B30024",
+		"profile_sidebar_border_color": "FFFFFF",
+		"profile_sidebar_fill_color": "DDEEF6",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727756817539928000,
+	"quoted_status_id_str": "727756817539928065",
+	"quoted_status": {
+		"created_at": "Wed May 04 07:08:41 +0000 2016",
+		"id": 727756817539928000,
+		"id_str": "727756817539928065",
+		"text": "Don't underestimate transition in Triathlon. A lot of hard work and effort can be undone if not practiced. #trainwithpurpose",
+		"entities": {
+			"hashtags": [{
+				"text": "trainwithpurpose",
+				"indices": [107, 124]
+			}],
+			"symbols": [],
+			"user_mentions": [],
+			"urls": []
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 1258830548,
+			"id_str": "1258830548",
+			"name": "Mike Nolan Fitness",
+			"screen_name": "MikeNFitness",
+			"location": "Cheshire & Manchester",
+			"description": "Personal training & cycle coaching: loving and living personal training since 1995",
+			"url": null,
+			"entities": {
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 183,
+			"friends_count": 173,
+			"listed_count": 1,
+			"created_at": "Mon Mar 11 07:25:18 +0000 2013",
+			"favourites_count": 18,
+			"utc_offset": null,
+			"time_zone": null,
+			"geo_enabled": false,
+			"verified": false,
+			"statuses_count": 527,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "C0DEED",
+			"profile_background_image_url": "http://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_image_url_https": "https://abs.twimg.com/images/themes/theme1/bg.png",
+			"profile_background_tile": false,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/606557282915094528/0p03KG0B_normal.jpg",
+			"profile_link_color": "0084B4",
+			"profile_sidebar_border_color": "C0DEED",
+			"profile_sidebar_fill_color": "DDEEF6",
+			"profile_text_color": "333333",
+			"profile_use_background_image": true,
+			"has_extended_profile": false,
+			"default_profile": true,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": null,
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 0,
+		"favorite_count": 1,
+		"favorited": false,
+		"retweeted": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 3,
+	"favorite_count": 10,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "es"
+}, {
+	"created_at": "Wed May 04 07:10:30 +0000 2016",
+	"id": 727757276094795800,
+	"id_str": "727757276094795776",
+	"text": "But you took a sneaky photo! https://t.co/g5UjPl3bCW",
+	"entities": {
+		"hashtags": [],
+		"symbols": [],
+		"user_mentions": [],
+		"urls": [{
+			"url": "https://t.co/g5UjPl3bCW",
+			"expanded_url": "https://twitter.com/chrisingramgb/status/727751038036525056",
+			"display_url": "twitter.com/chrisingramgb/…",
+			"indices": [29, 52]
+		}]
+	},
+	"truncated": false,
+	"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+	"in_reply_to_status_id": null,
+	"in_reply_to_status_id_str": null,
+	"in_reply_to_user_id": null,
+	"in_reply_to_user_id_str": null,
+	"in_reply_to_screen_name": null,
+	"user": {
+		"id": 216264820,
+		"id_str": "216264820",
+		"name": "michael owen",
+		"screen_name": "themichaelowen",
+		"location": "UK",
+		"description": "The Official Twitter Account of Michael Owen",
+		"url": "http://t.co/sMgLle37KC",
+		"entities": {
+			"url": {
+				"urls": [{
+					"url": "http://t.co/sMgLle37KC",
+					"expanded_url": "http://michaelowen.com",
+					"display_url": "michaelowen.com",
+					"indices": [0, 22]
+				}]
+			},
+			"description": {
+				"urls": []
+			}
+		},
+		"protected": false,
+		"followers_count": 3478958,
+		"friends_count": 411,
+		"listed_count": 11590,
+		"created_at": "Tue Nov 16 06:15:01 +0000 2010",
+		"favourites_count": 6,
+		"utc_offset": 3600,
+		"time_zone": "London",
+		"geo_enabled": false,
+		"verified": true,
+		"statuses_count": 11895,
+		"lang": "en",
+		"contributors_enabled": false,
+		"is_translator": false,
+		"is_translation_enabled": true,
+		"profile_background_color": "C9B699",
+		"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/490997085/Twitter_Backdrop.jpg",
+		"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/490997085/Twitter_Backdrop.jpg",
+		"profile_background_tile": false,
+		"profile_image_url": "http://pbs.twimg.com/profile_images/719928654642483205/aTlEX_Ae_normal.jpg",
+		"profile_image_url_https": "https://pbs.twimg.com/profile_images/719928654642483205/aTlEX_Ae_normal.jpg",
+		"profile_banner_url": "https://pbs.twimg.com/profile_banners/216264820/1402676898",
+		"profile_link_color": "AB5000",
+		"profile_sidebar_border_color": "EEEEEE",
+		"profile_sidebar_fill_color": "EFEFEF",
+		"profile_text_color": "333333",
+		"profile_use_background_image": true,
+		"has_extended_profile": false,
+		"default_profile": false,
+		"default_profile_image": false,
+		"following": true,
+		"follow_request_sent": false,
+		"notifications": false
+	},
+	"geo": null,
+	"coordinates": null,
+	"place": null,
+	"contributors": null,
+	"quoted_status_id": 727751038036525000,
+	"quoted_status_id_str": "727751038036525056",
+	"quoted_status": {
+		"created_at": "Wed May 04 06:45:43 +0000 2016",
+		"id": 727751038036525000,
+		"id_str": "727751038036525056",
+		"text": "Happened to sit next to England hero of mine @themichaelowen just before boarding. Gutted I didn't speak to him! https://t.co/U9QXqARlAp",
+		"entities": {
+			"hashtags": [],
+			"symbols": [],
+			"user_mentions": [{
+				"screen_name": "themichaelowen",
+				"name": "michael owen",
+				"id": 216264820,
+				"id_str": "216264820",
+				"indices": [45, 60]
+			}],
+			"urls": [],
+			"media": [{
+				"id": 727751022882508800,
+				"id_str": "727751022882508805",
+				"indices": [113, 136],
+				"media_url": "http://pbs.twimg.com/media/Chl9sxPW0AUaRP3.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/Chl9sxPW0AUaRP3.jpg",
+				"url": "https://t.co/U9QXqARlAp",
+				"display_url": "pic.twitter.com/U9QXqARlAp",
+				"expanded_url": "http://twitter.com/ChrisIngramGB/status/727751038036525056/photo/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 1024,
+						"h": 576,
+						"resize": "fit"
+					},
+					"small": {
+						"w": 340,
+						"h": 191,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 600,
+						"h": 338,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					}
+				}
+			}]
+		},
+		"extended_entities": {
+			"media": [{
+				"id": 727751022882508800,
+				"id_str": "727751022882508805",
+				"indices": [113, 136],
+				"media_url": "http://pbs.twimg.com/media/Chl9sxPW0AUaRP3.jpg",
+				"media_url_https": "https://pbs.twimg.com/media/Chl9sxPW0AUaRP3.jpg",
+				"url": "https://t.co/U9QXqARlAp",
+				"display_url": "pic.twitter.com/U9QXqARlAp",
+				"expanded_url": "http://twitter.com/ChrisIngramGB/status/727751038036525056/photo/1",
+				"type": "photo",
+				"sizes": {
+					"large": {
+						"w": 1024,
+						"h": 576,
+						"resize": "fit"
+					},
+					"small": {
+						"w": 340,
+						"h": 191,
+						"resize": "fit"
+					},
+					"medium": {
+						"w": 600,
+						"h": 338,
+						"resize": "fit"
+					},
+					"thumb": {
+						"w": 150,
+						"h": 150,
+						"resize": "crop"
+					}
+				}
+			}]
+		},
+		"truncated": false,
+		"source": "<a href=\"http://twitter.com/download/iphone\" rel=\"nofollow\">Twitter for iPhone</a>",
+		"in_reply_to_status_id": null,
+		"in_reply_to_status_id_str": null,
+		"in_reply_to_user_id": null,
+		"in_reply_to_user_id_str": null,
+		"in_reply_to_screen_name": null,
+		"user": {
+			"id": 371725669,
+			"id_str": "371725669",
+			"name": "Chris Ingram",
+			"screen_name": "ChrisIngramGB",
+			"location": "Manchester / European C'ship",
+			"description": "Official @Opel Rally driver & Brand ambassador. Chasing my dream! currently ranked England's Number#1. @FIAERC & @MSAteamUK driver. Codriver @katbecker_rally",
+			"url": "https://t.co/MF5nEOftH3",
+			"entities": {
+				"url": {
+					"urls": [{
+						"url": "https://t.co/MF5nEOftH3",
+						"expanded_url": "http://www.chris-ingram.co.uk",
+						"display_url": "chris-ingram.co.uk",
+						"indices": [0, 23]
+					}]
+				},
+				"description": {
+					"urls": []
+				}
+			},
+			"protected": false,
+			"followers_count": 4899,
+			"friends_count": 589,
+			"listed_count": 50,
+			"created_at": "Sun Sep 11 11:50:40 +0000 2011",
+			"favourites_count": 2656,
+			"utc_offset": 3600,
+			"time_zone": "London",
+			"geo_enabled": true,
+			"verified": false,
+			"statuses_count": 2319,
+			"lang": "en",
+			"contributors_enabled": false,
+			"is_translator": false,
+			"is_translation_enabled": false,
+			"profile_background_color": "131516",
+			"profile_background_image_url": "http://pbs.twimg.com/profile_background_images/618131427599732737/I6MhoGyZ.jpg",
+			"profile_background_image_url_https": "https://pbs.twimg.com/profile_background_images/618131427599732737/I6MhoGyZ.jpg",
+			"profile_background_tile": true,
+			"profile_image_url": "http://pbs.twimg.com/profile_images/724279799775158272/bK-04Arb_normal.jpg",
+			"profile_image_url_https": "https://pbs.twimg.com/profile_images/724279799775158272/bK-04Arb_normal.jpg",
+			"profile_banner_url": "https://pbs.twimg.com/profile_banners/371725669/1460492436",
+			"profile_link_color": "FAB81E",
+			"profile_sidebar_border_color": "000000",
+			"profile_sidebar_fill_color": "000000",
+			"profile_text_color": "000000",
+			"profile_use_background_image": true,
+			"has_extended_profile": true,
+			"default_profile": false,
+			"default_profile_image": false,
+			"following": false,
+			"follow_request_sent": false,
+			"notifications": false
+		},
+		"geo": null,
+		"coordinates": null,
+		"place": {
+			"id": "0952929cf4165001",
+			"url": "https://api.twitter.com/1.1/geo/id/0952929cf4165001.json",
+			"place_type": "poi",
+			"name": "Flughafen München \"Franz Josef Strauß\" - MUC",
+			"full_name": "Flughafen München \"Franz Josef Strauß\" - MUC",
+			"country_code": "DE",
+			"country": "Deutschland",
+			"contained_within": [],
+			"bounding_box": {
+				"type": "Polygon",
+				"coordinates": [
+					[
+						[11.787432, 48.35393],
+						[11.787432, 48.35393],
+						[11.787432, 48.35393],
+						[11.787432, 48.35393]
+					]
+				]
+			},
+			"attributes": {}
+		},
+		"contributors": null,
+		"is_quote_status": false,
+		"retweet_count": 1,
+		"favorite_count": 19,
+		"favorited": false,
+		"retweeted": false,
+		"possibly_sensitive": false,
+		"lang": "en"
+	},
+	"is_quote_status": true,
+	"retweet_count": 13,
+	"favorite_count": 83,
+	"favorited": false,
+	"retweeted": false,
+	"possibly_sensitive": false,
+	"lang": "en"
+}]

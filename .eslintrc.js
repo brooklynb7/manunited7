@@ -79,6 +79,7 @@ module.exports = {
 		io: true,
 		moment: true,
 		Service: true,
+		UI: true,
 		Modernizr: true,
 		Promise: true,
 		__TESTING__: true,

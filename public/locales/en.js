@@ -3,6 +3,7 @@
 	"loggedIn": "Already logged in",
 	"somethingWrong": "Something went wrong",
 	"cancel": "Cancel",
+	"confirm": "Confirm",
 	"pleaseSignIn": "Please sign in",
 	"userName": "User name",
 	"password": "Password",
@@ -53,5 +54,6 @@
 	"sortByYear": "sort by year",
 	"timeline": "Timeline",
 	"delTimeline": "Delete timeline",
-	"whetherDelTimeline": "Are you sure to delete this timeline?"
+	"whetherDelTimeline": "Are you sure to delete this timeline?",
+	"notAuthorized": "Not authorized"
 }

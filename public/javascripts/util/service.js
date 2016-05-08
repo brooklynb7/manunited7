@@ -48,10 +48,24 @@
 		});
 	};
 
+	Service.prototype.getAllPostList = function() {
+		return $.ajax({
+			url: this.getPostsApiUrl('/all'),
+			method: 'GET'
+		});
+	};
+
 	Service.prototype.getPostBySlug = function(slug) {
 		return $.ajax({
-			url: this.getPostsApiUrl('/' + slug),
+			url: this.getPostsApiUrl('/slug/' + slug),
 			method: 'GET'
+		});
+	};
+
+	Service.prototype.deletePost = function(id) {
+		return $.ajax({
+			url: this.getPostsApiUrl('/' + id),
+			method: 'DELETE'
 		});
 	};
 

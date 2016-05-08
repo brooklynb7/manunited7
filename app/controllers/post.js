@@ -14,11 +14,11 @@ var _ = require('lodash'),
  * Page controllers
  */
 
-exports.postsPage = function(req, res) {
+exports.postsPage = (req, res) => {
 	res.render('index/posts');
 };
 
-exports.postPage = function(req, res) {
+exports.postPage = (req, res) => {
 	let slug = req.params.slug;
 	res.render('index/post', {
 		slug: slug
@@ -28,7 +28,7 @@ exports.postPage = function(req, res) {
 /*
  * API controllers
  */
-exports.getPosts = function(req, res) {
+exports.getPosts = (req, res) => {
 	let condition = {
 		page: req.query.page,
 		size: req.query.size,
@@ -40,7 +40,7 @@ exports.getPosts = function(req, res) {
 	}
 	let pageSize = parseInt(condition.size, 10);
 	if (_.isNaN(pageSize)) {
-		pageSize = 100;
+		pageSize = 20;
 	}
 
 	var shortenContent = function(content, slug) {
@@ -64,7 +64,7 @@ exports.getPosts = function(req, res) {
 				.sort('-create_at')
 				.exec(callback);
 		}
-	], function(err, results) {
+	], (err, results) => {
 		if (err) return errorHandler.sendError(res, err, 400);
 		var posts = results[1];
 		_.map(posts, function(post) {
@@ -79,13 +79,31 @@ exports.getPosts = function(req, res) {
 	});
 };
 
-exports.getPostBySlug = function(req, res) {
+exports.getAllPostList = (req, res) => {
+	Post.find().select('title create_at').sort('-create_at')
+		.exec((err, rst) => {
+			if (err) return errorHandler.sendError(res, err, 400);
+			res.json(rst);
+		});
+};
+
+exports.getPostBySlug = (req, res) => {
 	let slug = req.params.slug;
 	Post.findOne({
 		slug: slug
-	}).exec(function(err, post) {
+	}).exec((err, post) => {
 		if (err) return errorHandler.sendError(res, err, 400);
 		if (!post) return errorHandler.sendError(res, 'No such post', 404);
 		res.json(post);
+	});
+};
+
+exports.deletePost = (req, res) => {
+	let id = req.params.id;
+	Post.remove({
+		_id: id
+	}).exec((err, rst) => {
+		if (err) return errorHandler.sendError(res, err, 400);
+		res.json('ok');
 	});
 };

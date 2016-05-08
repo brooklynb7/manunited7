@@ -18,7 +18,7 @@
 			UI.BlockUI.show(selector.loginBtn);
 			Service.doAdminLogin($(selector.userNameInput).val(), $(selector.pwdInput).val())
 				.done(function(rst) {
-					window.location.href = referer;
+					window.location.href = UI.getUrlParameter('origin');
 				})
 				.fail(function(jqXHR) {
 					$.notify(jqXHR.responseJSON.msg, 'error');

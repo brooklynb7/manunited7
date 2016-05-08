@@ -12,5 +12,6 @@ module.exports = app => {
 	app.post('/api/admin/login', admin.doLogin);
 
 	pageRouter.get('/', admin.indexPage);
+	pageRouter.get('/posts', admin.postsPage);
 	app.use('/admin', admin.requireAdminLogin, pageRouter);
 };

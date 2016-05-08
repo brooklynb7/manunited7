@@ -32,6 +32,15 @@ exports.logoutPage = (req, res) => {
 	res.redirect(url_admin);
 };
 
+exports.postsPage = (req, res) => {
+	res.render('admin/posts');
+};
+
+exports.requireAdminLogin = (req, res, next) => {
+	if (req.session.admin_id) return next();
+	res.redirect(url_admin_login + '?origin=' + encodeURIComponent(req.originalUrl));
+};
+
 /*
  * API controllers
  */
@@ -47,17 +56,14 @@ exports.doLogin = (req, res) => {
 		if (rst) {
 			req.session.admin_id = rst._id.toString();
 			req.session.admin_name = rst.name;
-			res.send('OK');
+			res.send('ok');
 		} else {
 			errorHandler.sendError(res, res.__('wrongUserPassword'), 400);
 		}
 	});
 };
 
-exports.requireAdminLogin = (req, res, next) => {
-	if (req.session.admin_id) {
-		return next();
-	} else {
-		res.redirect(url_admin_login);
-	}
+exports.requireAdminLoginApi = (req, res, next) => {
+	if (req.session.admin_id) return next();
+	errorHandler.sendError(res, res.__('notAuthorized'), 403);
 };

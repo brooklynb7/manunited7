@@ -1,0 +1,16 @@
+extends ../layouts/admin
+
+block content
+	div.post-list.panel.panel-default
+		div.panel-heading
+			ol.breadcrumb
+				li
+					a(href='/admin')= __('home')
+				li.active= __('articleList')
+				a.btn.btn-xs.btn-red.pull-right(href='/admin/newpost')= __('newArticle')
+		div.panel-body
+			div.list-group
+
+block extraScripts	
+	script(src='/static/javascripts/admin/posts.js')
+	

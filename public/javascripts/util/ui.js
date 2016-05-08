@@ -11,7 +11,22 @@
 	};
 
 	UI.prototype.convertDateTime = function(timestamp) {
-		return moment(new Date(timestamp)).format('YYYY-MM-DD HH:mm');
+		return moment(new Date(timestamp)).format('YYYY-MM-DD HH:mm:ss');
+	};
+
+	UI.prototype.getUrlParameter = function(sParam) {
+		var sPageURL = decodeURIComponent(window.location.search.substring(1)),
+			sURLVariables = sPageURL.split('&'),
+			sParameterName,
+			i;
+
+		for (i = 0; i < sURLVariables.length; i++) {
+			sParameterName = sURLVariables[i].split('=');
+
+			if (sParameterName[0] === sParam) {
+				return sParameterName[1] === undefined ? true : sParameterName[1];
+			}
+		}
 	};
 
 	window.UI = new UI();
@@ -50,10 +65,10 @@
 				'<span class="text-danger modal-msg" style="margin-right: 10px;"></span>'
 			);
 			$modal_close = $(
-				'<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">取消</button>'
+				'<button type="button" class="btn btn-sm btn-default" data-dismiss="modal">' + $.i18n._('cancel') + '</button>'
 			);
 			var $modal_confirm = $(
-				'<button type="button" class="btn btn-sm blue confirm-btn">确认</button>');
+				'<button type="button" class="btn btn-sm btn-primary confirm-btn">' + $.i18n._('confirm') + '</button>');
 			if (options.suspendConfirm === true) {
 				$modal_confirm = $(
 					'<button type="button" class="btn btn-sm blue confirm-btn" disabled>暂不开放</button>'

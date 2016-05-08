@@ -7,7 +7,5 @@ block content
 		input.form-control#pwdInput(type='password',name='password',placeholder='#{__("password")}')
 		button.btn.btn-lg.btn-red.btn-block#signInBtn(type='button')=__('signIn')
 
-block extraScripts
-	script.
-		var referer = '!{referer}' || '/admin';
+block extraScripts	
 	script(src='/static/javascripts/admin/login.js')

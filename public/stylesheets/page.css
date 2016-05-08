@@ -103,9 +103,6 @@ a.logo, a:hover.logo{
 	background-color: #bd0006;
 	border-color: #bd0006;
 }
-:focus{
-	outline: none;
-}
 label{
 	font-weight:normal;
 }
@@ -113,7 +110,7 @@ label{
 	margin-bottom: 0;
 }
 .list-group-item .glyphicon{
-	top: 4px;
+	top: 3px;
 	font-size: 12px;
 	margin-left: 5px;
 }

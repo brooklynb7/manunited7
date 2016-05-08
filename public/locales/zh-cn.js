@@ -3,6 +3,7 @@
 	"loggedIn": "已登录",
 	"somethingWrong": "内部错误",
 	"cancel": "取消",
+	"confirm": "确认",
 	"pleaseSignIn": "请先登录",
 	"userName": "用户名",
 	"password": "密码",
@@ -53,5 +54,6 @@
 	"sortByYear": "按年排序",
 	"timeline": "时间线",
 	"delTimeline": "删除时间线",
-	"whetherDelTimeline": "您确定要删除这条时间线吗?"
+	"whetherDelTimeline": "您确定要删除这条时间线吗?",
+	"notAuthorized": "未授权"
 }

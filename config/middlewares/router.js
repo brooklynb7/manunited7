@@ -19,6 +19,7 @@ module.exports = function(app) {
 		res.locals.query = req.query;
 		res.locals.moment = require('moment');
 		res.locals.session = req.session;
+		res.locals.referer = req.get('Referer');
 		res.locals.utils = require('../../app/utils');
 
 		next();

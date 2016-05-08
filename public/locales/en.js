@@ -1,5 +1,7 @@
 {
 	"ok": "OK",
+	"loggedIn": "Already logged in",
+	"somethingWrong": "Something went wrong",
 	"cancel": "Cancel",
 	"pleaseSignIn": "Please sign in",
 	"userName": "User name",

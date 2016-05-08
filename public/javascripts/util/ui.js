@@ -213,7 +213,13 @@
 
 (function($) {
 	var show = function(options) {
-		options = $.extend(true, {}, options);
+		if (typeof options === 'string') {
+			options = {
+				target: options
+			};
+		} else {
+			options = $.extend(true, {}, options);
+		}
 		var html = '<div class="loading-message"><img src="/static/images/loading.gif" align=""></div>';
 		var overlayCSS = {
 			backgroundColor: options.overlayColor ? options.overlayColor : '#000',

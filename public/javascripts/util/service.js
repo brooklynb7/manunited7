@@ -55,5 +55,21 @@
 		});
 	};
 
+	// Admin API
+	Service.prototype.getAdminApiUrl = function(path) {
+		return this.getApiUrl('admin') + path;
+	};
+
+	Service.prototype.doAdminLogin = function(user, pwd) {
+		return $.ajax({
+			url: this.getAdminApiUrl('/login'),
+			data: {
+				user: user,
+				password: pwd
+			},
+			method: 'POST'
+		});
+	};
+
 	window.Service = new Service();
 }(jQuery));

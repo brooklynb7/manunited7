@@ -1,5 +1,7 @@
 {
 	"ok": "确定",
+	"loggedIn": "已登录",
+	"somethingWrong": "内部错误",
 	"cancel": "取消",
 	"pleaseSignIn": "请先登录",
 	"userName": "用户名",

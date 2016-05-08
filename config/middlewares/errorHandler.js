@@ -5,14 +5,14 @@ var handleError = function(err, path, res) {
 	console.error(err.stack);
 
 	// Error page
-	res.status(err.status || 500).render(path + 'errors/500', {
+	res.status(err.status || 500).render('errors/' + path + '500', {
 		message: err.message,
 		error: err
 	});
 };
 
 var handleNotFound = function(path, res) {
-	res.status(404).render(path + 'errors/404');
+	res.status(404).render('errors/' + path + '404');
 };
 
 module.exports = function(app) {
@@ -41,7 +41,9 @@ module.exports = function(app) {
 
 	// Assume 404 since no middleware responded
 	app.use('/api', function(req, res) {
-		res.status(404).send('无此接口');
+		res.status(404).json({
+			msg: '无此接口'
+		});
 	});
 
 	app.use('/admin', function(req, res) {

@@ -8,7 +8,7 @@ body {
 .united_red{
 	color: #bd0006;
 }
-a, a:visited{
+a{
 	color: #2a6496;
 }
 .more{
@@ -181,4 +181,7 @@ label{
 .united-members-timeline .user-name{
 	font-size: 16px;
 	font-weight: bold;
+}
+.notifyjs-corner{
+	margin-top: 60px !important;
 }

@@ -46,6 +46,10 @@ var PostSchema = new Schema({
 		type: Number,
 		default: 0
 	},
+	like: {
+		type: Number,
+		default: 0
+	},
 	visible: {
 		type: Number,
 		default: 1

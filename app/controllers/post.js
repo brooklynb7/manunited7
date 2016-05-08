@@ -85,6 +85,7 @@ exports.getPostBySlug = function(req, res) {
 		slug: slug
 	}).exec(function(err, post) {
 		if (err) return errorHandler.sendError(res, err, 400);
+		if (!post) return errorHandler.sendError(res, 'No such post', 404);
 		res.json(post);
 	});
 };

@@ -52,12 +52,3 @@
 		return $div;
 	}
 }(jQuery));
-
-
-// <div class="post-block panel panel-default">
-// 				<div class="panel-body">
-// 					<h3><a href="/post/<%=item.slug%>"><%=item.title%></a></h3>
-// 					<h6><%=moment(item.create_at).format(timeFormat1)%></h6>
-// 					<div class='post-content'><%-item.content%></div>
-// 				</div>
-// 			</div>

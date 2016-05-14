@@ -12,9 +12,12 @@ module.exports = function(app) {
 	pageRouter.get('/:slug', post.postPage);
 	app.use('/posts', pageRouter);
 
-	apiRouter.get('/all', admin.requireAdminLoginApi, post.getAllPostList);
 	apiRouter.delete('/:id', admin.requireAdminLoginApi, post.deletePost);
+	apiRouter.post('/', admin.requireAdminLoginApi, post.createPost);
+	apiRouter.put('/:id', admin.requireAdminLoginApi, post.updatePost);
+	apiRouter.get('/all', admin.requireAdminLoginApi, post.getAllPostList);
 	apiRouter.get('/slug/:slug', post.getPostBySlug);
+	apiRouter.get('/:id', admin.requireAdminLoginApi, post.getPostById);
 	apiRouter.get('/', post.getPosts);
 
 	app.use('/api/posts', apiRouter);

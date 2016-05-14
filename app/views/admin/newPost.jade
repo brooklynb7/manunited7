@@ -1,0 +1,20 @@
+extends ../layouts/admin
+
+block content
+	div.panel.panel-default
+		div.panel-heading
+			ol.breadcrumb
+				li
+					a(href='/admin')= __('home')
+				li
+					a(href='/admin/posts')= __('articleList')
+				li.active= __('newArticle')				
+		div.panel-body
+			include ../includes/admin/postForm
+			div.form-group
+				a#publishBtn.btn.btn-red.btn-sm(href='javascript:void(0)')= __('publish')
+
+block extraScripts
+	include ../includes/admin/ckeditorScripts
+	script(src='/static/javascripts/admin/postForm.js')
+	script(src='/static/javascripts/admin/newPost.js')

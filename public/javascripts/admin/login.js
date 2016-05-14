@@ -1,6 +1,6 @@
 'use strict';
 
-(function($, referer) {
+(function($) {
 
 	var selector = {
 		loginBtn: '#signInBtn',
@@ -29,4 +29,4 @@
 				});
 		});
 	}
-}(jQuery, window.referer));
+}(jQuery));

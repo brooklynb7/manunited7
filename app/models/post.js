@@ -12,7 +12,7 @@ var mongoose = require('mongoose'),
 var PostSchema = new Schema({
 	title: {
 		type: String,
-		default: ''
+		required: true
 	},
 	content: {
 		type: String,
@@ -28,7 +28,10 @@ var PostSchema = new Schema({
 	},
 	slug: {
 		type: String,
-		default: ''
+		required: true
+	},
+	cover_img: {
+		type: String
 	},
 	source: {
 		type: String,

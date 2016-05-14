@@ -36,6 +36,16 @@ exports.postsPage = (req, res) => {
 	res.render('admin/posts');
 };
 
+exports.postPage = (req, res) => {
+	res.render('admin/editPost', {
+		postId: req.params.id
+	});
+};
+
+exports.newPostPage = (req, res) => {
+	res.render('admin/newPost');
+};
+
 exports.requireAdminLogin = (req, res, next) => {
 	if (req.session.admin_id) return next();
 	res.redirect(url_admin_login + '?origin=' + encodeURIComponent(req.originalUrl));

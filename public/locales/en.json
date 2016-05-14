@@ -28,7 +28,7 @@
 	"whetherDelArticle": "Are you sure to delete this article?",
 	"title": "Title",
 	"tag": "Tag",
-	"seperateTag": "Seperate each tag by \"|\"",
+	"seperateTag": "Seperate each tag by the vertical bar",
 	"content": "Content",
 	"publish": "Publish",
 	"originalUrl": "Original url",
@@ -55,5 +55,7 @@
 	"timeline": "Timeline",
 	"delTimeline": "Delete timeline",
 	"whetherDelTimeline": "Are you sure to delete this timeline?",
-	"notAuthorized": "Not authorized"
+	"notAuthorized": "Not authorized",
+	"noPostId": "No post id",
+	"updatePostSuccess": "Update successfully"
 }

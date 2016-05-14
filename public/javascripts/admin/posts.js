@@ -1,6 +1,6 @@
 'use strict';
 
-(function($, referer) {
+(function($) {
 
 	var selector = {
 		list: '.list-group',
@@ -76,4 +76,4 @@
 		};
 	}
 
-}(jQuery, window.referer));
+}(jQuery));

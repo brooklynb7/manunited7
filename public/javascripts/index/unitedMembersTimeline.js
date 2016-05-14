@@ -11,7 +11,7 @@
 	});
 
 	function loadUnitedMembersTimeline() {
-		UI.BlockUI.show();
+		UI.BlockUI.show(selector.timeline);
 		Service.getTwitterUnitedMembersTimeline()
 			.done(function(rst) {
 				$(selector.timeline).empty();
@@ -23,7 +23,7 @@
 				console.log(jqXHR);
 			})
 			.always(function() {
-				UI.BlockUI.hide();
+				UI.BlockUI.hide(selector.timeline);
 			});
 	}
 

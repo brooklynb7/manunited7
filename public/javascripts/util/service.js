@@ -8,7 +8,7 @@
 	Service.prototype.getLocaleFile = function(locale) {
 		return $.ajax({
 			method: 'GET',
-			url: '/static/locales/' + locale + '.js',
+			url: '/static/locales/' + locale + '.json',
 			async: false,
 			dataType: 'json'
 		});
@@ -59,6 +59,29 @@
 		return $.ajax({
 			url: this.getPostsApiUrl('/slug/' + slug),
 			method: 'GET'
+		});
+	};
+
+	Service.prototype.getPostById = function(id) {
+		return $.ajax({
+			url: this.getPostsApiUrl('/' + id),
+			method: 'GET'
+		});
+	};
+
+	Service.prototype.createPost = function(post) {
+		return $.ajax({
+			url: this.getPostsApiUrl('/'),
+			data: post,
+			method: 'POST'
+		});
+	};
+
+	Service.prototype.updatePost = function(id, post) {
+		return $.ajax({
+			url: this.getPostsApiUrl('/' + id),
+			data: post,
+			method: 'PUT'
 		});
 	};
 

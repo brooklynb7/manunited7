@@ -28,7 +28,7 @@
 	"whetherDelArticle": "您确定要删除这篇文章吗?",
 	"title": "标题",
 	"tag": "标签",
-	"seperateTag": "用\"|\"分割每一个标签",
+	"seperateTag": "用竖线分割每一个标签",
 	"content": "内容",
 	"publish": "发布",
 	"originalUrl": "源链接",
@@ -55,5 +55,7 @@
 	"timeline": "时间线",
 	"delTimeline": "删除时间线",
 	"whetherDelTimeline": "您确定要删除这条时间线吗?",
-	"notAuthorized": "未授权"
+	"notAuthorized": "未授权",
+	"noPostId": "没有文章id",
+	"updatePostSuccess": "编辑成功"
 }

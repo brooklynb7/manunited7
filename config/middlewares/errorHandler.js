@@ -22,7 +22,10 @@ module.exports = function(app) {
 		if (!err) {
 			return next();
 		}
-		res.status(err.status || 500).send('内部错误');
+		console.log(err);
+		res.status(err.status || 500).json({
+			msg: 'Internal Error'
+		});
 	});
 
 	app.use('/admin', function(err, req, res, next) {

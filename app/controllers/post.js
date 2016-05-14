@@ -28,6 +28,20 @@ exports.postPage = (req, res) => {
 /*
  * API controllers
  */
+var getPostObject = function(form) {
+	return {
+		title: form.title,
+		slug: form.slug,
+		short_desc: form.shortDesc,
+		content: form.content,
+		tag: form.tag.split('|'),
+		source: form.source,
+		originalUrl: form.originalUrl,
+		cover_img: form.coverImg,
+		visible: parseInt(form.visible, 10)
+	};
+};
+
 exports.getPosts = (req, res) => {
 	let condition = {
 		page: req.query.page,
@@ -58,11 +72,9 @@ exports.getPosts = (req, res) => {
 			Post.count().exec(callback);
 		},
 		function(callback) {
-			Post.find()
-				.limit(pageSize)
-				.skip(pageSize * page)
-				.sort('-create_at')
-				.exec(callback);
+			Post.find({
+				visible: 1
+			}).limit(pageSize).skip(pageSize * page).sort('-create_at').exec(callback);
 		}
 	], (err, results) => {
 		if (err) return errorHandler.sendError(res, err, 400);
@@ -87,14 +99,45 @@ exports.getAllPostList = (req, res) => {
 		});
 };
 
+var getPostCallbackFn = (err, post, res) => {
+	if (err) return errorHandler.sendError(res, err, 400);
+	if (!post) return errorHandler.sendError(res, 'No such post', 404);
+	res.json(post);
+};
+
 exports.getPostBySlug = (req, res) => {
 	let slug = req.params.slug;
 	Post.findOne({
 		slug: slug
 	}).exec((err, post) => {
+		getPostCallbackFn(err, post, res);
+	});
+};
+
+exports.getPostById = (req, res) => {
+	let id = req.params.id;
+	Post.findById(id).exec((err, post) => {
+		getPostCallbackFn(err, post, res);
+	});
+};
+
+exports.createPost = (req, res) => {
+	let post = new Post(getPostObject(req.body));
+	post.save(function(err) {
 		if (err) return errorHandler.sendError(res, err, 400);
-		if (!post) return errorHandler.sendError(res, 'No such post', 404);
-		res.json(post);
+		res.json({
+			msg: 'ok'
+		});
+	});
+};
+
+exports.updatePost = (req, res) => {
+	let id = req.params.id;
+	Post.findByIdAndUpdate(id, getPostObject(req.body), function(err, post) {
+		if (err) return errorHandler.sendError(res, err, 400);
+		res.json({
+			msg: 'ok'
+		});
 	});
 };
 

@@ -8,6 +8,6 @@ i18n.configure({
 	cookie: 'i18nlocale',
 	updateFiles: false,
 	indent: '\t',
-	extension: '.js'
+	extension: '.json'
 });
 exports.i18n = i18n;

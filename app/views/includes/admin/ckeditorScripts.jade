@@ -11,12 +11,6 @@ script.
 				language: $.cookie('i18nlocale')
 			}).editor;
 
-			editor.setData($('#content').val());
-
-			editor.on('instanceReady', function() {
-				this.document.on('keyup', function() {
-					//console.log($('textarea#editor').val());
-				});
-			});
+			//editor.setData($('#content').val());
 		});
 	}(jQuery));

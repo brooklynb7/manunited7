@@ -8,7 +8,8 @@ script.
 		};
 		$(document).ready(function() {
 			var editor = $(selector.editor).ckeditor({
-				language: $.cookie('i18nlocale')
+				language: $.cookie('i18nlocale'),
+				extraPlugins:'colorbutton'
 			}).editor;
 
 			//editor.setData($('#content').val());

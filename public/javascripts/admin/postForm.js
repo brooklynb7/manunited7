@@ -53,6 +53,7 @@
 		$(selector.title).val(post.title);
 		$(selector.slug).val(post.slug);
 		$(selector.shortDesc).val(post.short_desc);
+		$(selector.content).val(post.content);
 		$(selector.editor).val(post.content);
 		$(selector.tag).val(post.tag.join('|'));
 		$(selector.coverImg).val(post.cover_img);

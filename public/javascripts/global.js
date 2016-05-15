@@ -5,10 +5,14 @@
 	var selector = {
 		i18nZh: '.i18n.zh',
 		i18nEn: '.i18n.en',
-		container: '.container'
+		container: '.container',
+		footer: '.footer'
 	};
 
 	$(selector.container).css('min-height', $(window).height() - 120);
+	$(selector.footer).css({
+		position: 'relative'
+	});
 
 	var locale = $.cookie('i18nlocale') || 'zh-cn';
 

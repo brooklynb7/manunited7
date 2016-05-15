@@ -6,4 +6,7 @@
 	font-size: 18px;
 	box-shadow: 0 -3px 10px #ccc;
 	padding-top: 12px;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
 }

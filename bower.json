@@ -1,0 +1,17 @@
+{
+	"name": "app",
+	"version": "0.0.1",
+	"description": "",
+	"dependencies": {
+		"jquery": "1.12.3",
+		"lodash": "~3.8.0",
+		"moment": "~2.10.3",
+		"ckeditor": "4.5.9",
+		"blockUI": "*",
+		"jquery-i18n": "^1.1.1",
+		"jquery.cookie": "^1.4.1",
+		"jquery-placeholder": "^2.3.1",
+		"bootstrap": "^3.3.6",
+		"notifyjs": "notifyjss#^0.4.2"
+	}
+}

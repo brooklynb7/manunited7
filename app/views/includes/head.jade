@@ -1,0 +1,20 @@
+head
+	meta(charset='utf-8')
+	title #{title}
+	meta(http-equiv='X-UA-Compatible', content='IE=edge')
+	meta(id='viewport',name='viewport',content='width=device-width,initial-scale=1.0,maximum-scale=1.0,user-scalable=no')
+	
+	//- ,maximum-scale=1.0,user-scalable=no
+	meta(content='#{description}', name='description')
+	meta(content='', name='author')
+	meta(name="referrer",content="no-referrer")
+	link(href='/static/lib/bootstrap/dist/css/bootstrap.min.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/page.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/signForm.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/navibar.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/footer.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/post.css',rel='stylesheet',type='text/css')
+	link(href='/static/stylesheets/pagination.css',rel='stylesheet',type='text/css')
+	
+	block pageLevelCss
+	

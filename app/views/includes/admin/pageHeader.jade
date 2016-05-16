@@ -1,0 +1,32 @@
+div.header.navbar.navbar-default(role='navigation')
+	div.navbar-header
+		button.navbar-toggle(data-toggle='collapse',data-target='#navBar',type='button')
+			span.sr-only Toggle navigation
+			span.icon-bar
+			span.icon-bar
+			span.icon-bar
+		img.logo(src='/static/images/680_normal.png')
+		a.logo(href='/admin') #{brand}
+	div.collapse.navbar-collapse#navBar
+		ul.nav.navbar-nav
+			li.dropdown
+				a.dropdown-toggle(href='#',data-toggle='dropdown')= __('article')
+					b.caret
+				ul.dropdown-menu
+					li
+						a(href='/admin/posts')= __('articleList')
+					li
+						a(href='/admin/post/new')= __('newArticle')
+		ul.nav.navbar-nav.navbar-right
+			li
+				a.i18n.en(href='javascript:void(0)') English
+			li
+				a.i18n.zh(href='javascript:void(0)') 中文
+			if session.admin_id
+				li
+					a(href='/admin/profile')= session.admin_name
+				li
+					a.logout.glyphicon.glyphicon-off(href='/admin/logout')
+			else
+				li
+					a(href='/admin/login')= __("signIn")

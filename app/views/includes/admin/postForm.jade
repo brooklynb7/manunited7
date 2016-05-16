@@ -1,0 +1,35 @@
+form(role='form').postForm
+	div.form-group
+		label(for='title')= __('title')
+			span.required *
+		input.form-control.input-sm#title(name='title',type='text',placeholder='#{__("title")}')
+	div.form-group
+		label(for='slug')= __('slug')
+			span.required *
+		input.form-control.input-sm#slug(name='slug',type='text',placeholder='#{__("slug")}')
+	div.form-group
+		label(for='shortDesc')= __('short_desc')
+		textarea.form-control#shortDesc(name='shortDesc',placeholder='#{__("short_desc")}',row='3')
+	div.form-group
+		label(for='editor')= __('content')
+			span.required *
+		textarea#editor
+		input#content(type='hidden',name='content')
+	div.row
+		div.form-group.col-xs-6
+			label(for='tag') #{__('tag')}(#{__('seperateTag')})
+			input.form-control.input-sm#tag(name='tag',placeholder='#{__("tag")}')
+		div.form-group.col-xs-6
+			label(for='coverImg') #{__('coverImg')}
+			input.form-control.input-sm#coverImg(name='coverImg',placeholder='#{__("coverImg")}')
+	div.row
+		div.form-group.col-xs-6
+			label(for='tag') #{__('source')}
+			input.form-control.input-sm#source(name='source',placeholder='#{__("source")}')
+		div.form-group.col-xs-6
+			label(for='originalUrl') #{__('originalUrl')}
+			input.form-control.input-sm#originalUrl(name='originalUrl',placeholder='#{__("originalUrl")}')
+	div.checkbox
+		label
+			input#visible(name='visible',type='checkbox')
+			| #{__("visible")}

@@ -1,0 +1,22 @@
+extends ../layouts/admin
+
+block content
+	div.panel.panel-default
+		div.panel-heading
+			ol.breadcrumb
+				li
+					a(href='/admin')= __('home')
+				li
+					a(href='/admin/posts')= __('articleList')
+				li.active= __('editArticle')				
+				a.btn.btn-xs.btn-red.pull-right(href='/admin/newpost')= __('newArticle')
+		div.panel-body			
+			include ../includes/admin/postForm
+			div.form-group
+					a#editBtn.btn.btn-red.btn-sm(href='javascript:void(0)')= __('edit')
+block extraScripts
+	include ../includes/admin/ckeditorScripts
+	script.
+		var postId = '#{postId}';
+	script(src='/static/javascripts/admin/postForm.js')
+	script(src='/static/javascripts/admin/editPost.js')

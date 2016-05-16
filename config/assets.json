@@ -1,0 +1,21 @@
+{
+	"core": {
+		"css": {
+			"public/build/css/dist.min.css": [
+				"public/lib/bootstrap/dist/css/bootstrap.min.css"
+			]
+		},
+		"js": {
+			"public/build/js/dist.min.js": [
+				"public/lib/moment/min/moment.min.js",
+				"public/lib/lodash/lodash.min.js",
+				"public/lib/jquery/dist/jquery.min.js",
+				"public/lib/blockUI/jquery.blockUI.js",
+				"public/lib/jquery-i18n/jquery.i18n.min.js",
+				"public/lib/jquery.cookie/jquery.cookie.js",
+				"public/lib/jquery-placeholder/jquery.placeholder.min.js",
+				"public/lib/bootstrap/dist/js/bootstrap.min.js"
+			]
+		}
+	}
+}

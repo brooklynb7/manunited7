@@ -1,0 +1,17 @@
+script(src='/static/lib/ckeditor/ckeditor.js')
+script(src='/static/lib/ckeditor/config.js')
+script(src='/static/lib/ckeditor/adapters/jquery.js')
+script.
+	(function($) {
+		var selector = {
+			editor: 'textarea#editor'
+		};
+		$(document).ready(function() {
+			var editor = $(selector.editor).ckeditor({
+				language: $.cookie('i18nlocale'),
+				extraPlugins:'colorbutton'
+			}).editor;
+
+			//editor.setData($('#content').val());
+		});
+	}(jQuery));

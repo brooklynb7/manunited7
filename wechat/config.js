@@ -1,6 +1,6 @@
 'use strict';
 
-var wechatConfig = require('../config/config').wechat;
+var wechatConfig = require('./config.wechat');
 var OAuth = require('wechat-oauth');
 var client = new OAuth(wechatConfig.appId, wechatConfig.appSecret);
 
@@ -12,7 +12,7 @@ var createWechatOAuthUrl = function(cbUrlPath) {
 module.exports = {
 	wechat: {
 		port: 3302,
-		token: 'wechatToken',
+		token: wechatConfig.token,
 		appId: wechatConfig.appId,
 		appSecret: wechatConfig.appSecret,
 		account: wechatConfig.account,

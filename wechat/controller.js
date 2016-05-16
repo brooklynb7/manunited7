@@ -81,6 +81,15 @@ MessageHandler.prototype.menu_event_handler = function() {
 	this.res.reply(msg);
 };
 
+MessageHandler.prototype.normal_text_event_handler = function() {
+	// var msg = message.Content;
+	// if (msg.toLowerCase() === 'today') {
+	// 	handle_today_post_list(res);
+	// } else {
+	// 	res.reply('');
+	// }
+};
+
 MessageHandler.prototype.scan_event_handler = function() {
 	var that = this;
 	var sceneId = this.message.EventKey;
@@ -92,7 +101,6 @@ MessageHandler.prototype.response_empty = function() {
 
 var handler = new MessageHandler();
 
-
 function message_handler(handler) {
 	switch (true) {
 		case handler.is_subscribe_event():
@@ -100,6 +108,9 @@ function message_handler(handler) {
 			break;
 		case handler.is_menu_click():
 			handler.menu_event_handler();
+			break;
+		case handler.is_normal_text():
+			handler.normal_text_event_handler();
 			break;
 		default:
 			handler.response_empty();

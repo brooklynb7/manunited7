@@ -39,3 +39,5 @@ config/env/all.js
 config/env/development.js
 config/env/test.js
 config/env/production.js
+wechat/config.wechat.js
+wechat/config.wechat.test.js

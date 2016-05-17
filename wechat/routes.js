@@ -8,4 +8,5 @@ module.exports = function(app) {
 	app.route('/api/wechat/createMenu').get(wechatApi.createMenu);
 	app.route('/api/wechat/test').get(wechatApi.test);
 	app.use('/api/wechat/', wechatApi.index);
+	app.use('/api/weixin/', wechatApi.index);
 };

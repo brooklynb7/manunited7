@@ -3,15 +3,14 @@
 var init = require('../config/init')(),
 	express = require('express'),
 	path = require('path'),
-	mongoose = require('./mongoose'),
+	mongoose = require('../confit/mongoose'),
 	autoIncrement = require('mongoose-auto-increment'),
-	config = require('./config'),
 	logger = require('../config/middlewares/logger'),
 	parser = require('../config/middlewares/parser'),
 	templateEngine = require('../config/middlewares/template'),
 	moment = require('moment'),
+	config = require('./config'),
 	routes = require('./routes');
-
 
 mongoose.connect(function(db) {
 	autoIncrement.initialize(db);

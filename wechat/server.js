@@ -3,7 +3,7 @@
 var init = require('../config/init')(),
 	express = require('express'),
 	path = require('path'),
-	mongoose = require('../confit/mongoose'),
+	mongoose = require('../config/mongoose'),
 	autoIncrement = require('mongoose-auto-increment'),
 	logger = require('../config/middlewares/logger'),
 	parser = require('../config/middlewares/parser'),

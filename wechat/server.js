@@ -15,6 +15,7 @@ var init = require('../config/init')(),
 
 mongoose.connect(function(db) {
 	autoIncrement.initialize(db);
+	require('../app/models/post');
 
 	var app = express();
 
@@ -25,8 +26,6 @@ mongoose.connect(function(db) {
 	parser(app);
 
 	routes(app);
-
-	require('../app/models/post');
 
 	// Setting the app router and static folder
 	app.use(express.static(path.resolve('../public')));

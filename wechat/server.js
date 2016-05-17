@@ -3,6 +3,8 @@
 var init = require('../config/init')(),
 	express = require('express'),
 	path = require('path'),
+	mongoose = require('./mongoose'),
+	autoIncrement = require('mongoose-auto-increment'),
 	config = require('./config'),
 	logger = require('../config/middlewares/logger'),
 	parser = require('../config/middlewares/parser'),
@@ -10,22 +12,26 @@ var init = require('../config/init')(),
 	moment = require('moment'),
 	routes = require('./routes');
 
-var app = express();
 
-templateEngine(app);
+mongoose.connect(function(db) {
+	autoIncrement.initialize(db);
+	var app = express();
 
-logger(app);
+	templateEngine(app);
 
-parser(app);
+	logger(app);
 
-routes(app);
+	parser(app);
 
-// Setting the app router and static folder
-app.use(express.static(path.resolve('../public')));
+	routes(app);
 
-app.set('port', config.wechat.port);
+	// Setting the app router and static folder
+	app.use(express.static(path.resolve('../public')));
 
-var server = app.listen(app.get('port'), function() {
-	console.log('[' + moment().format('YYYY-MM-DD h:mm:ss') +
-		'] Wechat-API server listening on port ' + server.address().port);
+	app.set('port', config.wechat.port);
+
+	var server = app.listen(app.get('port'), function() {
+		console.log('[' + moment().format('YYYY-MM-DD h:mm:ss') +
+			'] Wechat-API server listening on port ' + server.address().port);
+	});
 });

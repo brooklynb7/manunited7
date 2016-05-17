@@ -4,6 +4,7 @@ var init = require('../config/init')(),
 	express = require('express'),
 	path = require('path'),
 	mongoose = require('../config/mongoose'),
+
 	autoIncrement = require('mongoose-auto-increment'),
 	logger = require('../config/middlewares/logger'),
 	parser = require('../config/middlewares/parser'),
@@ -14,6 +15,7 @@ var init = require('../config/init')(),
 
 mongoose.connect(function(db) {
 	autoIncrement.initialize(db);
+
 	var app = express();
 
 	templateEngine(app);
@@ -23,6 +25,8 @@ mongoose.connect(function(db) {
 	parser(app);
 
 	routes(app);
+
+	require('../app/models/post');
 
 	// Setting the app router and static folder
 	app.use(express.static(path.resolve('../public')));

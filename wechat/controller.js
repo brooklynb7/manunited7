@@ -50,24 +50,6 @@ let handleTodayPostList = (res) => {
 		}
 	});
 };
-//
-// db.post.find({
-// 		'create_at': {
-// 			$gte: new Date(moment().format(config.timeFormat2)).getTime(),
-// 			$lt: new Date(moment().add('days', 1).format(config.timeFormat2)).getTime()
-// 		},
-// 		'visible': 1
-// 	}, {
-// 		'_id': 0,
-// 		'content': 0,
-// 		'short_desc': 0,
-// 		'originalUrl': 0,
-// 		'source': 0,
-// 		'tag': 0,
-// 		'visible': 0
-// 	}).sort({
-// 		'create_at': -1
-// 	}).limit(5).toArray(callback);
 
 let MessageHandler = (wechatUser, message, response) => {
 	this.wechatUser = wechatUser;

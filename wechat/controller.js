@@ -51,7 +51,7 @@ let handleTodayPostList = (res) => {
 	});
 };
 
-let MessageHandler = (wechatUser, message, response) => {
+var MessageHandler = function(wechatUser, message, response) {
 	this.wechatUser = wechatUser;
 	this.message = message;
 	this.res = response;

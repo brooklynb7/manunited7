@@ -8,6 +8,7 @@ var twitter = require('../controllers/twitter');
 
 module.exports = function(app) {
 	pageRouter.get('/', twitter.unitedMembersTimelinePage);
+	pageRouter.get('/reds', twitter.unitedMembersTimelinePage);
 	app.use('/twitter', pageRouter);
 
 	apiRouter.get('/united-members-timeline', twitter.getUnitedMembersTimeline);

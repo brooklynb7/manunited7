@@ -37,9 +37,13 @@ module.exports = {
 			parentMenu: {
 				name: 'ParentMenu'
 			},
-			linkMenu: {
-				name: 'linkMenu',
-				url: createWechatOAuthUrl('/appurl')
+			reds: {
+				name: 'Reds',
+				url: wechatConfig.url + '/twitter/reds' // createWechatOAuthUrl('/appurl')
+			},
+			posts: {
+				name: 'Posts',
+				url: wechatConfig.url + '/posts' // createWechatOAuthUrl('/appurl')
 			}
 		}
 	}

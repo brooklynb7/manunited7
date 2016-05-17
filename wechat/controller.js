@@ -18,7 +18,7 @@ let handleTodayPostList = (res) => {
 		visible: 1,
 		'create_at': {
 			$gte: new Date(moment().format('YYYY-MM-DD 00:00:00')).getTime(),
-			$lt: new Date(moment().add('days', 1).format('YYYY-MM-DD 00:00:00')).getTime()
+			$lt: new Date(moment().add(1, 'days').format('YYYY-MM-DD 00:00:00')).getTime()
 		}
 	};
 	var projection = 'title coverImg slug';
@@ -165,26 +165,19 @@ exports.index = wechat(config.wechat.token, function(req, res, next) {
 });
 
 exports.createMenu = function(req, res) {
-	// api.createMenu({
-	// 	'button': [{
-	// 		'name': menuButton.parentMenu.name,
-	// 		'sub_button': [{
-	// 			'type': 'view',
-	// 			'name': menuButton.linkMenu.name,
-	// 			'url': menuButton.linkMenu.url
-	// 		}]
-	// 	}, {
-	// 		'name': menuButton.parentMenu.name,
-	// 		'sub_button': [{
-	// 			'type': 'view',
-	// 			'name': menuButton.linkMenu.name,
-	// 			'url': menuButton.linkMenu.url
-	// 		}]
-	// 	}]
-	// }, function(err, rst) {
-	// 	res.send(rst);
-	// });
-	res.send('Pending...');
+	api.createMenu({
+		'button': [{
+			'type': 'view',
+			'name': menuButton.posts.name,
+			'url': menuButton.posts.url
+		}, {
+			'type': 'view',
+			'name': menuButton.reds.name,
+			'url': menuButton.reds.url
+		}]
+	}, function(err, rst) {
+		res.send(rst);
+	});
 };
 
 exports.test = function(req, res) {

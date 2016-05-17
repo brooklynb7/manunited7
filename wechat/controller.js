@@ -3,14 +3,53 @@
 /**
  * Module dependencies.
  */
-var mongoose = require('mongoose'),
+let mongoose = require('mongoose'),
+	Post = mongoose.model('Post'),
 	_ = require('lodash'),
+	moment = require('moment'),
 	config = require('./config'),
 	wechat = require('wechat'),
 	API = require('wechat-api'),
 	api = new API(config.wechat.appId, config.wechat.appSecret),
 	menuButton = config.wechat.menuButton;
 
+let handleTodayPostList = (res) => {
+	var condition = {
+		visible: 1,
+		'create_at': {
+			$gte: new Date(moment().format('YYYY-MM-DD 00:00:00')).getTime(),
+			$lt: new Date(moment().add('days', 1).format('YYYY-MM-DD 00:00:00')).getTime()
+		}
+	};
+	var projection = 'title coverImg slug';
+	var options = {
+		limit: 5,
+		sort: {
+			'create_at': -1
+		}
+	};
+	Post.find(condition, projection, options, function(err, posts) {
+		if (err) {
+			console.log(err);
+			res.reply('');
+		} else {
+			if (posts.length === 0) {
+				res.reply('暂无内容');
+			} else {
+				var msgList = [];
+				for (var i = 0; i < posts.length; i++) {
+					msgList.push({
+						title: posts[i].title,
+						description: '',
+						picurl: posts[i].cover_img || (config.wechat.host + '/static/images/logo.jpg'),
+						url: config.wechat.host + '/posts/' + posts[i].slug
+					});
+				}
+				res.reply(msgList);
+			}
+		}
+	});
+};
 
 var MessageHandler = function(wechatUser, message, response) {
 	this.wechatUser = wechatUser;
@@ -18,7 +57,7 @@ var MessageHandler = function(wechatUser, message, response) {
 	this.res = response;
 };
 
-MessageHandler.prototype.is_subscribe_event = function() {
+MessageHandler.prototype.isSubscribeEvent = function() {
 	var message = this.message;
 	if (message.MsgType === config.wechat.msgType.event &&
 		message.Event === config.wechat.event.subscribe) {
@@ -45,7 +84,7 @@ MessageHandler.prototype.is_location_event = function() {
 	}
 };
 
-MessageHandler.prototype.is_normal_text = function() {
+MessageHandler.prototype.isNormalText = function() {
 	if (this.message.MsgType === config.wechat.msgType.text) {
 		return true;
 	} else {
@@ -53,7 +92,7 @@ MessageHandler.prototype.is_normal_text = function() {
 	}
 };
 
-MessageHandler.prototype.is_menu_click = function() {
+MessageHandler.prototype.isMenuClick = function() {
 	if (this.message.MsgType === config.wechat.msgType.event &&
 		this.message.Event === config.wechat.event.click) {
 		return true;
@@ -62,90 +101,90 @@ MessageHandler.prototype.is_menu_click = function() {
 	}
 };
 
-MessageHandler.prototype.subscribe_event_handler = function() {
+MessageHandler.prototype.handleSubscribeEvent = function() {
 	this.res.reply(config.wechat.subscribeMsg);
 };
 
-// 'oBGqGjkX4rAjcMhTjthPuiFz1Jac'
-MessageHandler.prototype.menu_event_handler = function() {
+MessageHandler.prototype.handleMenuClick = function() {
 	var eventKey = this.message.EventKey;
 	var msg = '';
 
-	switch (eventKey) {
-		case menuButton.angency.key:
-			msg = menuButton.angency.msg;
-			break;
-		default:
-			break;
-	}
+	// switch (eventKey) {
+	// 	case menuButton.angency.key:
+	// 		msg = menuButton.angency.msg;
+	// 		break;
+	// 	default:
+	// 		break;
+	// }
 	this.res.reply(msg);
 };
 
-MessageHandler.prototype.normal_text_event_handler = function() {
-	// var msg = message.Content;
-	// if (msg.toLowerCase() === 'today') {
-	// 	handle_today_post_list(res);
-	// } else {
-	// 	res.reply('');
-	// }
+MessageHandler.prototype.handleNormalTextEvent = function() {
+	var msg = this.message.Content;
+	if (msg.toLowerCase() === 'today') {
+		handleTodayPostList(this.res);
+	} else {
+		this.responseEmpty();
+	}
 };
 
-MessageHandler.prototype.scan_event_handler = function() {
+MessageHandler.prototype.handleScanEvent = function() {
 	var that = this;
 	var sceneId = this.message.EventKey;
 };
 
-MessageHandler.prototype.response_empty = function() {
+MessageHandler.prototype.responseEmpty = function() {
 	this.res.reply('');
 };
 
-var handler = new MessageHandler();
-
-function message_handler(handler) {
+function handleMessage(handler) {
 	switch (true) {
-		case handler.is_subscribe_event():
-			handler.subscribe_event_handler();
+		case handler.isSubscribeEvent():
+			handler.handleSubscribeEvent();
 			break;
-		case handler.is_menu_click():
-			handler.menu_event_handler();
+		case handler.isMenuClick():
+			handler.handleMenuClick();
 			break;
-		case handler.is_normal_text():
-			handler.normal_text_event_handler();
+		case handler.isNormalText():
+			handler.handleNormalTextEvent();
 			break;
 		default:
-			handler.response_empty();
+			handler.responseEmpty();
 			break;
 	}
 }
+
+var handler = new MessageHandler();
 
 exports.index = wechat(config.wechat.token, function(req, res, next) {
 	// 微信输入信息都在req.wechat上
 	var message = req.weixin;
 	handler.res = res;
 	handler.message = message;
-	message_handler(handler);
+	handleMessage(handler);
 });
 
 exports.createMenu = function(req, res) {
-	api.createMenu({
-		'button': [{
-			'name': menuButton.parentMenu.name,
-			'sub_button': [{
-				'type': 'view',
-				'name': menuButton.linkMenu.name,
-				'url': menuButton.linkMenu.url
-			}]
-		}, {
-			'name': menuButton.parentMenu.name,
-			'sub_button': [{
-				'type': 'view',
-				'name': menuButton.linkMenu.name,
-				'url': menuButton.linkMenu.url
-			}]
-		}]
-	}, function(err, rst) {
-		res.send(rst);
-	});
+	// api.createMenu({
+	// 	'button': [{
+	// 		'name': menuButton.parentMenu.name,
+	// 		'sub_button': [{
+	// 			'type': 'view',
+	// 			'name': menuButton.linkMenu.name,
+	// 			'url': menuButton.linkMenu.url
+	// 		}]
+	// 	}, {
+	// 		'name': menuButton.parentMenu.name,
+	// 		'sub_button': [{
+	// 			'type': 'view',
+	// 			'name': menuButton.linkMenu.name,
+	// 			'url': menuButton.linkMenu.url
+	// 		}]
+	// 	}]
+	// }, function(err, rst) {
+	// 	res.send(rst);
+	// });
+	res.send('Pending...');
 };
 
 exports.test = function(req, res) {

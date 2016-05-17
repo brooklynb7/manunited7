@@ -3,29 +3,37 @@
 var init = require('../config/init')(),
 	express = require('express'),
 	path = require('path'),
-	config = require('./config'),
+	mongoose = require('../config/mongoose'),
+
+	autoIncrement = require('mongoose-auto-increment'),
 	logger = require('../config/middlewares/logger'),
 	parser = require('../config/middlewares/parser'),
 	templateEngine = require('../config/middlewares/template'),
 	moment = require('moment'),
+	config = require('./config'),
 	routes = require('./routes');
 
-var app = express();
+mongoose.connect(function(db) {
+	autoIncrement.initialize(db);
+	require('../app/models/post');
 
-templateEngine(app);
+	var app = express();
 
-logger(app);
+	templateEngine(app);
 
-parser(app);
+	logger(app);
 
-routes(app);
+	parser(app);
 
-// Setting the app router and static folder
-app.use(express.static(path.resolve('../public')));
+	routes(app);
 
-app.set('port', config.wechat.port);
+	// Setting the app router and static folder
+	app.use(express.static(path.resolve('../public')));
 
-var server = app.listen(app.get('port'), function() {
-	console.log('[' + moment().format('YYYY-MM-DD h:mm:ss') +
-		'] Wechat-API server listening on port ' + server.address().port);
+	app.set('port', config.wechat.port);
+
+	var server = app.listen(app.get('port'), function() {
+		console.log('[' + moment().format('YYYY-MM-DD h:mm:ss') +
+			'] Wechat-API server listening on port ' + server.address().port);
+	});
 });

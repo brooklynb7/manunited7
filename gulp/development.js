@@ -22,7 +22,7 @@ var count = function(taskName, message) {
 
 var paths = {
 	serverViews: ['app/views/**/*.jade'],
-	serverJs: ['app/**/*.js', 'config/**/*.js', '*.js', '!app/tests/**/*.js'],
+	serverJs: ['app/**/*.js', 'config/**/*.js', 'wechat/**/*.js', '*.js', '!app/tests/**/*.js'],
 	clientViews: [],
 	clientJs: ['public/javascripts/**/*.js'],
 	clientCss: ['public/stylesheets/**/*.css']

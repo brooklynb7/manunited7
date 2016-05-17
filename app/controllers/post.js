@@ -5,9 +5,9 @@
  */
 var _ = require('lodash'),
 	async = require('async'),
-	mongoose = require('mongoose'),
 	path = require('path'),
 	errorHandler = require('./error'),
+	mongoose = require('mongoose'),
 	Post = mongoose.model('Post');
 
 /*

@@ -8,11 +8,11 @@ module.exports = {
 			pass: ''
 		}
 	},
-	wechat: {
-		appId: '',
-		appSecret: '',
-		account: '',
-		url: '',
-		host: ''
+	twitter: {
+		api_host: '',
+		consumer_key: '',
+		consumer_secret: '',
+		access_token: '',
+		access_token_secret: ''
 	}
 };

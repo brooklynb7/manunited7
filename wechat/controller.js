@@ -21,7 +21,7 @@ let handleTodayPostList = (res) => {
 			$lt: new Date(moment().add(1, 'days').format('YYYY-MM-DD 00:00:00')).getTime()
 		}
 	};
-	var projection = 'title coverImg slug';
+	var projection = 'title cover_img slug';
 	var options = {
 		limit: 5,
 		sort: {

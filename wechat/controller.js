@@ -3,7 +3,7 @@
 /**
  * Module dependencies.
  */
-let PostService = require('../app/service/post'),
+let PostService = require('../app/services/post'),
 	config = require('./config'),
 	wechat = require('wechat'),
 	API = require('wechat-api'),

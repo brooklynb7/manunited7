@@ -10,6 +10,8 @@ div.header.navbar.navbar-default(role='navigation')
 	div.collapse.navbar-collapse#navBar
 		ul.nav.navbar-nav
 			li
+				a(href='/')= __('index')
+			li
 				a(href='/posts')= __('news')
 			li.dropdown
 				a.dropdown-toggle(href='#',data-toggle='dropdown')= __('weixinhao')
@@ -30,5 +32,3 @@ div.header.navbar.navbar-default(role='navigation')
 			//- 			<%} else {%>
 			//- 				<li><a href='/login'><%=__("signIn")%></a></li>
 			//- 			<%}%> -->
-			
-			

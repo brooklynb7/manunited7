@@ -1,13 +1,15 @@
+.posts .panel,.post .panel{
+	border-radius: 0;
+	border: 0;
+}
 .post-list .panel-body{
 	padding: 15px;
 }
-.post-block .panel-body h3{
+.post-block .panel-body .title{
 	color: #bd0006;
-	margin-top: 10px;
+	font-size: 16px;
 	line-height: 1.5;
 }
-.post-block .panel-body h6{
-	margin-top: 15px;
-	margin-bottom: 15px;
+.post-block .panel-body .time{
 	color: #999;
 }

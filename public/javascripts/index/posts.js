@@ -19,7 +19,7 @@
 			.done(function(rst) {
 				$(selector.posts).empty();
 				_.each(rst.posts, function(post) {
-					$(selector.posts).append(createPostRow(post));
+					$(selector.posts).append(UI.Post.createPostListItem(post));
 				});
 				$(selector.paginater).html(UI.Pagination.show({
 					total: rst.count,
@@ -37,18 +37,5 @@
 			.always(function() {
 				UI.BlockUI.hide();
 			});
-	}
-
-	function createPostRow(post) {
-		var $div = $('<div class="post-block panel panel-default" />');
-
-		var $panelBody = $('<div class="panel-body"/>');
-		var $title = $('<h3><a href="/posts/' + post.slug + '">' + post.title + '</a></h3>');
-		var $time = $('<h6>' + UI.convertDateTime(post.create_at) + '</h6>');
-		var $content = $('<div class="post-content">' + post.content + '</div>');
-		$panelBody.append($title).append($time).append($content);
-
-		$div.append($panelBody);
-		return $div;
 	}
 }(jQuery));

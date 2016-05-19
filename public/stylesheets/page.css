@@ -23,12 +23,6 @@ a{
 .absolute{
 	position: absolute;
 }
-.time{
-	margin-left: 10px;
-	color: #999999;
-	font-style: italic;
-	font-size: 12px;
-}
 .clean_link{
 	cursor:default;
 	text-decoration:none;
@@ -132,7 +126,7 @@ label{
 	margin-top: 20px;
 }
 .panel-body{
-	padding: 15px 30px 30px;
+	/*padding: 15px 30px 30px;*/
 }
 
 .list-group-item.row{
@@ -178,6 +172,12 @@ label{
 .united-members-timeline .user-name{
 	font-size: 16px;
 	font-weight: bold;
+}
+.united-members-timeline .time{
+	margin-left: 10px;
+	color: #999999;
+	font-style: italic;
+	font-size: 12px;
 }
 .notifyjs-corner{
 	margin-top: 60px !important;

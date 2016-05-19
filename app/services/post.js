@@ -32,8 +32,8 @@ exports.getLast5PostList = function(callback) {
 	};
 	var projection = 'title cover_img slug';
 	var options = {
+		limit: 5,
 		sort: {
-			limit: 5,
 			'create_at': -1
 		}
 	};

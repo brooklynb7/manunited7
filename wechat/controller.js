@@ -3,32 +3,44 @@
 /**
  * Module dependencies.
  */
-let mongoose = require('mongoose'),
-	Post = mongoose.model('Post'),
-	_ = require('lodash'),
-	moment = require('moment'),
+let PostService = require('../app/service/post'),
 	config = require('./config'),
 	wechat = require('wechat'),
 	API = require('wechat-api'),
 	api = new API(config.wechat.appId, config.wechat.appSecret),
 	menuButton = config.wechat.menuButton;
 
+let createPostListMsg = (posts) => {
+	var msgList = [];
+	for (var i = 0; i < posts.length; i++) {
+		msgList.push({
+			title: posts[i].title,
+			description: '',
+			picurl: posts[i].cover_img || (config.wechat.host + '/static/images/logo.jpg'),
+			url: config.wechat.host + '/posts/' + posts[i].slug
+		});
+	}
+
+	return msgList;
+};
+
 let handleTodayPostList = (res) => {
-	var condition = {
-		visible: 1,
-		'create_at': {
-			$gte: new Date(moment().format('YYYY-MM-DD 00:00:00')).getTime(),
-			$lt: new Date(moment().add(1, 'days').format('YYYY-MM-DD 00:00:00')).getTime()
+	PostService.getTodayPostList(function(err, posts) {
+		if (err) {
+			console.log(err);
+			res.reply('');
+		} else {
+			if (posts.length === 0) {
+				res.reply('今日暂无内容');
+			} else {
+				res.reply(createPostListMsg(posts));
+			}
 		}
-	};
-	var projection = 'title cover_img slug';
-	var options = {
-		limit: 5,
-		sort: {
-			'create_at': -1
-		}
-	};
-	Post.find(condition, projection, options, function(err, posts) {
+	});
+};
+
+let handleLast5PostList = (res) => {
+	PostService.getLast5PostList(function(err, posts) {
 		if (err) {
 			console.log(err);
 			res.reply('');
@@ -36,22 +48,13 @@ let handleTodayPostList = (res) => {
 			if (posts.length === 0) {
 				res.reply('暂无内容');
 			} else {
-				var msgList = [];
-				for (var i = 0; i < posts.length; i++) {
-					msgList.push({
-						title: posts[i].title,
-						description: '',
-						picurl: posts[i].cover_img || (config.wechat.host + '/static/images/logo.jpg'),
-						url: config.wechat.host + '/posts/' + posts[i].slug
-					});
-				}
-				res.reply(msgList);
+				res.reply(createPostListMsg(posts));
 			}
 		}
 	});
 };
 
-var MessageHandler = function(wechatUser, message, response) {
+let MessageHandler = function(wechatUser, message, response) {
 	this.wechatUser = wechatUser;
 	this.message = message;
 	this.res = response;
@@ -124,7 +127,7 @@ MessageHandler.prototype.handleNormalTextEvent = function() {
 	if (msg.toLowerCase() === 'today') {
 		handleTodayPostList(this.res);
 	} else {
-		this.responseEmpty();
+		handleLast5PostList(this.res);
 	}
 };
 

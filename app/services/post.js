@@ -5,37 +5,37 @@
  */
 var _ = require('lodash'),
 	async = require('async'),
-	moment = require('moment'),
+	util = require('../utils'),
 	mongoose = require('mongoose'),
 	Post = mongoose.model('Post');
+
+var BASIC_PROJECTION = 'title cover_img slug';
 
 exports.getTodayPostList = (callback) => {
 	var condition = {
 		visible: 1,
 		'create_at': {
-			$gte: new Date(moment().format('YYYY-MM-DD 00:00:00')).getTime(),
-			$lt: new Date(moment().add(1, 'days').format('YYYY-MM-DD 00:00:00')).getTime()
+			$gte: util.getDayTimestamp(0),
+			$lt: util.getDayTimestamp(1)
 		}
 	};
-	var projection = 'title cover_img slug';
 	var options = {
 		sort: {
 			'create_at': -1
 		}
 	};
-	Post.find(condition, projection, options, callback);
+	Post.find(condition, BASIC_PROJECTION, options, callback);
 };
 
 exports.getLast5PostList = function(callback) {
 	var condition = {
 		visible: 1
 	};
-	var projection = 'title cover_img slug';
 	var options = {
 		limit: 5,
 		sort: {
 			'create_at': -1
 		}
 	};
-	Post.find(condition, projection, options, callback);
+	Post.find(condition, BASIC_PROJECTION, options, callback);
 };

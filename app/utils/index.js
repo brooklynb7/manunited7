@@ -2,12 +2,13 @@
 
 var _ = require('lodash');
 var crypto = require('crypto');
+var moment = require('moment');
 
 exports.regex = {
 	mobile: /^0?(13[0-9]|15[012356789]|17[678]|18[0-9]|14[57])[0-9]{8}$/
 };
 
-exports.getRealIP = ipString => {
+exports.getRealIP = (ipString) => {
 	if (!ipString) {
 		return ipString;
 	}
@@ -27,7 +28,7 @@ exports.getRealIP = ipString => {
 	return realIP;
 };
 
-exports.md5 = text => {
+exports.md5 = (text) => {
 	return crypto.createHash('md5').update(text).digest('hex');
 };
 
@@ -35,4 +36,11 @@ exports.random = (upper, floor) => {
 	upper = typeof upper === 'number' ? upper : 100;
 	floor = typeof floor === 'number' ? floor : 0;
 	return parseInt(Math.random() * (upper - floor + 1) + floor, 10);
+};
+
+exports.getDayTimestamp = (days) => {
+	if (!_.isNumber(days)) {
+		days = 0;
+	}
+	return new Date(moment().add(days, 'days').format('YYYY-MM-DD 00:00:00')).getTime();
 };

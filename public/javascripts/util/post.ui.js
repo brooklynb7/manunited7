@@ -25,11 +25,15 @@
 		return $('<div class="post-content">' + content + '</div>');
 	};
 
-	var createJia = function() {
+	var createJia = function(post) {
 		var $jia = $('<div class="jiathis_style_24x24" style="margin-bottom:10px;" />');
 		_.each(['tsina', 'weixin', 'douban', 'fb', 'twitter'], function(item) {
 			$jia.append('<a class="jiathis_button_' + item + '" />');
 		});
+		window.jiathis_config = {
+			title: '#manunited7#',
+			summary: post.title
+		};
 		$jia.append(
 			'<script type="text/javascript" src="http://v3.jiathis.com/code_mini/jia.js?uid=1344332343487662" charset="utf-8"></script>'
 		).append('<div class="clear" />');
@@ -54,7 +58,7 @@
 		var $panelBody = createPanelBody();
 		var $title = createTitle(post.title);
 		var $time = createTime(UI.convertDateTime(post.create_at));
-		var $jia = createJia();
+		var $jia = createJia(post);
 		var $content = createContent(post.content);
 		$panelBody.append($title).append($time).append($jia).append($content);
 

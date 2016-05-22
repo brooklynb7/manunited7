@@ -1,0 +1,28 @@
+extends ../layouts/default
+block content
+	div.advice.panel.panel-default.row
+		div.panel-body
+			form
+				legend= __('yourFeedback')
+				div.form-group
+					label(for='inputName')= __('name')
+					input.form-control#inputName(type='text',placeholder='#{__("name")}')
+				div.form-group
+					label.control-label(for='inputEmail')= __('email')
+					input.form-control#inputEmail(type='text',placeholder='#{__("contactViaEmail")}')
+				//- div.form-group
+				//- 	label.control-label(for='selectCategory') 类别
+				//- 	select.form-control#selectCategory
+				//- 		each val, idx in adviceConfig.category
+				//- 			option(value=idx)= val
+				div.form-group
+					label.control-label(for='inputPhone')= __('content')
+						span (
+						span.adviceCount 0
+						span /200)
+					textarea.form-control#inputAdvice(rows='4', placeholder='#{__("notMoreThan200length")}')
+				div.text-right
+					a.btn.btn-default.backBtn(href='/',type='button')= __('goBackHome')
+					button.btn.btn-red#postAdviceBtn(type='button')= __('submit')				
+block extraScripts
+	script(src='/static/javascripts/index/advice.js')

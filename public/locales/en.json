@@ -58,5 +58,13 @@
 	"whetherDelTimeline": "Are you sure to delete this timeline?",
 	"notAuthorized": "Not authorized",
 	"noPostId": "No post id",
-	"updatePostSuccess": "Update successfully"
+	"updatePostSuccess": "Update successfully",
+	"feedback": "Feedback",
+	"yourFeedback": "Your feedback",
+	"name": "Name",
+	"email": "Email",
+	"goBackHome": "Go back to Home",
+	"submit": "Submit",
+	"notMoreThan200length": "Up to 200 characters",
+	"contactViaEmail": "We can contact you via Email"
 }

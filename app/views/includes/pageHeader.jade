@@ -13,8 +13,8 @@ div.header.navbar.navbar-default(role='navigation')
 				a(href='/')= __('index')
 			li
 				a(href='/posts')= __('news')
-			li
-				a(href='/advice')= __('feedback')
+			//- li
+			//- 	a(href='/advice')= __('feedback')
 			li.dropdown
 				a.dropdown-toggle(href='#',data-toggle='dropdown')= __('weixinhao')
 					b.caret
@@ -22,7 +22,7 @@ div.header.navbar.navbar-default(role='navigation')
 					li
 						a.clean_link(href='javascript:void(0)') ManUnited7
 						a.clean_link(href='javascript:void(0)')
-							img.weixin_logo(src='/static/images/united7_qrcode.jpg')
+							img.weixin_logo(src='/static/images/qrcode.jpg')
 		ul.nav.navbar-nav.navbar-right
 			li
 				a.i18n.en(href='javascript:void(0)') English

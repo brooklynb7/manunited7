@@ -41,3 +41,4 @@ config/env/test.js
 config/env/production.js
 wechat/config.wechat.js
 wechat/config.wechat.test.js
+script/**/*.*

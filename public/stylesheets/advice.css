@@ -4,3 +4,6 @@
 .advice .backBtn{
 	margin-right: 10px;
 }
+.advice .btn-group{
+	display: block;
+}

@@ -92,6 +92,19 @@
 		});
 	};
 
+	// Adivce API
+	Service.prototype.getAdviceApiUrl = function(path) {
+		return this.getApiUrl('advice') + path;
+	};
+
+	Service.prototype.addAdvice = function(advice) {
+		return $.ajax({
+			url: this.getAdviceApiUrl('/'),
+			data: advice,
+			method: 'POST'
+		});
+	};
+
 	// Admin API
 	Service.prototype.getAdminApiUrl = function(path) {
 		return this.getApiUrl('admin') + path;

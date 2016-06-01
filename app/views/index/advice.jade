@@ -1,4 +1,11 @@
+mixin adviceCategory(active, name, val)
+	label(class='btn btn-default #{active}')
+		input(type='radio',name='categoryOptions',autocomplete='off',value='#{val}')
+		span #{__(name)}
+
 extends ../layouts/default
+block pageLevelCss
+	link(href='/static/stylesheets/advice.css',rel='stylesheet',type='text/css')
 block content
 	div.advice.panel.panel-default.row
 		div.panel-body
@@ -10,11 +17,13 @@ block content
 				div.form-group
 					label.control-label(for='inputEmail')= __('email')
 					input.form-control#inputEmail(type='text',placeholder='#{__("contactViaEmail")}')
-				//- div.form-group
-				//- 	label.control-label(for='selectCategory') 类别
-				//- 	select.form-control#selectCategory
-				//- 		each val, idx in adviceConfig.category
-				//- 			option(value=idx)= val
+				div.form-group
+					label.control-label(for='selectCategory')= __('category')
+					div.btn-group(data-toggle='buttons')
+						- each val, idx in adviceConfig.category
+							-var isActive = (idx === '1') ? 'active' : ''
+							+adviceCategory(isActive, val, idx)
+					div.clear
 				div.form-group
 					label.control-label(for='inputPhone')= __('content')
 						span (

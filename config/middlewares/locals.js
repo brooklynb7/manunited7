@@ -12,6 +12,7 @@ module.exports = function(app) {
 	app.locals.livereload = config.livereload;
 	app.locals.logo = config.logo;
 	app.locals.favicon = config.favicon;
+	app.locals.adviceConfig = config.advice;
 
 	if (config.secure && config.secure.ssl === true) {
 		app.locals.secure = config.secure.ssl;

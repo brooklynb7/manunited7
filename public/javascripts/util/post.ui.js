@@ -60,7 +60,9 @@
 		var $time = createTime(UI.convertDateTime(post.create_at));
 		var $jia = createJia(post);
 		var $content = createContent(post.content);
-		$panelBody.append($title).append($time).append($jia).append($content);
+
+		$panelBody.append($title).append($time).append($content);
+		// .append($jia)
 
 		$div.append($panelBody);
 

@@ -10,6 +10,6 @@ module.exports = function(app) {
 	pageRouter.get('/', advice.advicePage);
 	app.use('/advice', pageRouter);
 
-	// apiRouter.post('/', advice.doPost);
+	apiRouter.post('/', advice.doPost);
 	app.use('/api/advice', apiRouter);
 };

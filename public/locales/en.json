@@ -66,5 +66,10 @@
 	"goBackHome": "Go back to Home",
 	"submit": "Submit",
 	"notMoreThan200length": "Up to 200 characters",
-	"contactViaEmail": "We can contact you via Email"
+	"contactViaEmail": "We can contact you via Email",
+	"category": "Category",
+	"bug": "Bug",
+	"uiStyle": "UI style",
+	"leaveMsg": "Leave message",
+	"others": "Others"
 }

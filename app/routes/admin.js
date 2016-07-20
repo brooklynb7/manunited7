@@ -15,5 +15,6 @@ module.exports = app => {
 	pageRouter.get('/posts', admin.postsPage);
 	pageRouter.get('/posts/:id', admin.postPage);
 	pageRouter.get('/newpost', admin.newPostPage);
+	pageRouter.get('/advice', admin.advicePage);
 	app.use('/admin', admin.requireAdminLogin, pageRouter);
 };

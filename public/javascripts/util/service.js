@@ -92,6 +92,34 @@
 		});
 	};
 
+	// Adivce API
+	Service.prototype.getAdviceApiUrl = function(path) {
+		return this.getApiUrl('advice') + path;
+	};
+
+	Service.prototype.addAdvice = function(advice) {
+		return $.ajax({
+			url: this.getAdviceApiUrl('/'),
+			data: advice,
+			method: 'POST'
+		});
+	};
+
+	Service.prototype.getAllAdvice = function(query) {
+		return $.ajax({
+			url: this.getAdviceApiUrl('/'),
+			data: query,
+			method: 'GET'
+		});
+	};
+
+	Service.prototype.removeAdvice = function(id) {
+		return $.ajax({
+			url: this.getAdviceApiUrl('/' + id),
+			method: 'DELETE'
+		});
+	};
+
 	// Admin API
 	Service.prototype.getAdminApiUrl = function(path) {
 		return this.getApiUrl('admin') + path;

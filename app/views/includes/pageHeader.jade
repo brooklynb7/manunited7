@@ -10,19 +10,19 @@ div.header.navbar.navbar-default(role='navigation')
 	div.collapse.navbar-collapse#navBar
 		ul.nav.navbar-nav
 			li
-				a(href='/')= __('index')
+				a(href='/')= __('they')
 			li
 				a(href='/posts')= __('news')
-			//- li
-			//- 	a(href='/advice')= __('feedback')
-			li.dropdown
-				a.dropdown-toggle(href='#',data-toggle='dropdown')= __('weixinhao')
-					b.caret
-				ul.dropdown-menu
-					li
-						a.clean_link(href='javascript:void(0)') ManUnited7
-						a.clean_link(href='javascript:void(0)')
-							img.weixin_logo(src='/static/images/qrcode.jpg')
+			li
+				a(href='/advice')= __('feedback')
+			//- li.dropdown
+			//- 	a.dropdown-toggle(href='#',data-toggle='dropdown')= __('weixinhao')
+			//- 		b.caret
+			//- 	ul.dropdown-menu
+			//- 		li
+			//- 			a.clean_link(href='javascript:void(0)') ManUnited7
+			//- 			a.clean_link(href='javascript:void(0)')
+			//- 				img.weixin_logo(src='/static/images/qrcode.jpg')
 		ul.nav.navbar-nav.navbar-right
 			li
 				a.i18n.en(href='javascript:void(0)') English

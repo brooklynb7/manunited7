@@ -1,5 +1,6 @@
 {
 	"index": "首页",
+	"they": "They",
 	"ok": "确定",
 	"loggedIn": "已登录",
 	"somethingWrong": "内部错误",
@@ -66,5 +67,12 @@
 	"goBackHome": "返回首页",
 	"submit": "提交",
 	"notMoreThan200length": "不超过200个字",
-	"contactViaEmail": "我们可以通过邮件与您联系"
+	"contactViaEmail": "我们可以通过邮件与您联系",
+	"category": "类别",
+	"bug": "Bug",
+	"uiStyle": "界面",
+	"leaveMsg": "留言",
+	"others": "其他",
+	"thanksForFeedback": "感谢你的宝贵意见",
+	"feedbackShouldNotEmpty": "请填写您的意见"
 }

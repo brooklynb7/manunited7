@@ -1,0 +1,21 @@
+extends ../layouts/admin
+block content
+	div.row
+		div.panel.panel-default
+			div.panel-heading
+				h5.panel-title 意见反馈列表
+			div.panel-body
+				table.table.table-bordered.table-hover
+					thead
+						tr
+							th 意见
+							th 名字
+							th 联系方式
+							th.td-time 创建时间
+							th.td-action-1 操作
+					tbody.adviceList
+				div.paginate.pull-right
+block extraScripts	
+	script(src='/static/javascripts/admin/advice.js')
+	script(type='text/template', id='removeAdviceTpl')
+		div.text-center!='您确定要删除这条意见反馈吗?'

@@ -1,5 +1,6 @@
 {
 	"index": "Index",
+	"they": "They",
 	"ok": "OK",
 	"loggedIn": "Already logged in",
 	"somethingWrong": "Something went wrong",
@@ -71,5 +72,7 @@
 	"bug": "Bug",
 	"uiStyle": "UI style",
 	"leaveMsg": "Leave message",
-	"others": "Others"
+	"others": "Others",
+	"thanksForFeedback": "Thank you for your feedback",
+	"feedbackShouldNotEmpty": "Please enter your feedback"
 }

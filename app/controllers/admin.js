@@ -46,6 +46,10 @@ exports.newPostPage = (req, res) => {
 	res.render('admin/newPost');
 };
 
+exports.advicePage = (req, res) => {
+	res.render('admin/advice');
+};
+
 exports.requireAdminLogin = (req, res, next) => {
 	if (req.session.admin_id) return next();
 	res.redirect(url_admin_login + '?origin=' + encodeURIComponent(req.originalUrl));

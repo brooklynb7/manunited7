@@ -23,7 +23,7 @@ var AdviceSchema = new Schema({
 	advice: {
 		type: String,
 		trim: true,
-		required: 'None Empty'
+		required: 'Advice should not Empty.'
 	},
 	category: {
 		type: Number

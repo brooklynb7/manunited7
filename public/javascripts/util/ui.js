@@ -10,10 +10,10 @@
 		$(el).removeAttr('disabled');
 	};
 
-	UI.prototype.notifySuccessRight = function($elm, msg) {
+	var notify = function($elm, msg, className, position) {
 		$elm.notify(msg, {
-			className: 'success',
-			position: 'right'
+			className: className,
+			position: position
 		});
 	};
 
@@ -21,10 +21,40 @@
 		$.notify(msg);
 	};
 
+	UI.prototype.notifySuccessGlobal = function(msg) {
+		$.notify(msg, 'success');
+	};
+
+	UI.prototype.notifySuccessLeft = function($elm, msg) {
+		notify($elm, msg, 'success', 'left');
+	};
+
+	UI.prototype.notifySuccessRight = function($elm, msg) {
+		notify($elm, msg, 'success', 'right');
+	};
+
+	UI.prototype.notifySuccessBottom = function($elm, msg) {
+		notify($elm, msg, 'success', 'bottom');
+	};
+
+	UI.prototype.notifyErrorLeft = function($elm, msg) {
+		notify($elm, msg, 'error', 'left');
+	};
+
 	UI.prototype.notifyErrorRight = function($elm, msg) {
-		$elm.notify(msg, {
-			position: 'right'
-		});
+		notify($elm, msg, 'error', 'right');
+	};
+
+	UI.prototype.notifyErrorTop = function($elm, msg) {
+		notify($elm, msg, 'error', 'top');
+	};
+
+	UI.prototype.notifyErrorBottom = function($elm, msg) {
+		notify($elm, msg, 'error', 'bottom');
+	};
+
+	UI.prototype.convertDate = function(timestamp) {
+		return moment(new Date(timestamp)).format('YYYY-MM-DD');
 	};
 
 	UI.prototype.convertDateTime = function(timestamp) {

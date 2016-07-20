@@ -1,6 +1,6 @@
 mixin adviceCategory(active, name, val)
 	label(class='btn btn-default #{active}')
-		input(type='radio',name='categoryOptions',autocomplete='off',value='#{val}')
+		input(type='radio',name='categoryOptions',autocomplete='off',value='#{val}', checked=(active?'checked':undefined))
 		span #{__(name)}
 
 extends ../layouts/default

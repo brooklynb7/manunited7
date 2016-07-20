@@ -1,5 +1,6 @@
 {
 	"index": "首页",
+	"they": "They",
 	"ok": "确定",
 	"loggedIn": "已登录",
 	"somethingWrong": "内部错误",
@@ -71,5 +72,7 @@
 	"bug": "Bug",
 	"uiStyle": "界面",
 	"leaveMsg": "留言",
-	"others": "其他"
+	"others": "其他",
+	"thanksForFeedback": "感谢你的宝贵意见",
+	"feedbackShouldNotEmpty": "请填写您的意见"
 }

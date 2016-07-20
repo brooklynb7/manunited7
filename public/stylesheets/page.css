@@ -182,3 +182,16 @@ label{
 .notifyjs-corner{
 	margin-top: 60px !important;
 }
+
+.td-time {
+	width:160px;
+}
+.td-date {
+	width: 100px;
+}
+.td-normal {
+	min-width: 60px;
+}
+.td-action-1 {
+	width: 60px;
+}

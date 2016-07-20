@@ -5,18 +5,15 @@
 		panel: '.panel',
 		nameInput: '#inputName',
 		emailInput: '#inputEmail',
-		categorySelect: '#selectCategory',
 		adviceInput: '#inputAdvice',
 		adviceCount: '.adviceCount',
 		postAdviceBtn: '#postAdviceBtn'
 	};
 
 	var adviceCountThreshold = 200;
-	//
-	// 	var dialog_title = '意见与反馈';
-	//
+
 	$(document).ready(function() {
-		// bindPostAdviceEvent();
+		bindPostAdviceEvent();
 		bindAdviceChangeEvent();
 	});
 	//
@@ -35,34 +32,30 @@
 
 	function bindPostAdviceEvent() {
 		$(selector.postAdviceBtn).on('click', function() {
+			var $this = $(this);
 			var adviceVal = $(selector.adviceInput).val();
-			var adviceVal = $(selector.adviceInput).val();
-			$adviceMsg.empty();
 			if (!adviceVal) {
-				UI.Modal.errorDialog(dialog_title, '请填写您的意见!');
-				return;
+				UI.notifyErrorLeft($this, $.i18n._('feedbackShouldNotEmpty'));
 			} else {
-				UI.BlockUI.show(selector.panel);
+				UI.BlockUI.show(selector.postAdviceBtn);
 				Service.addAdvice({
 					name: $(selector.nameInput).val(),
 					email: $(selector.emailInput).val(),
-					category: $(selector.categorySelect).val(),
-					advice: adviceVal,
+					category: $('input[type="radio"][name="categoryOptions"]:checked').val(),
+					advice: adviceVal
 				}).done(function() {
-					UI.Modal.msgDialog(dialog_title, '感谢您提出的宝贵意见!');
+					UI.notifySuccessGlobal($.i18n._('thanksForFeedback'));
 					resetAdviceForm();
 				}).fail(function(jqXHR) {
-					$adviceMsg.html(jqXHR.responseText);
+					UI.notifyErrorLeft($this, jqXHR.responseJSON.msg);
 				}).always(function() {
-					m.unblockUI(selector.panel);
+					UI.BlockUI.hide(selector.postAdviceBtn);
 				});
 			}
 		});
 	}
 
-
 	function resetAdviceForm() {
-		// $(selector.categorySelect).val('1');
 		$(selector.adviceInput).val('');
 		$(selector.adviceCount).html(0);
 	}

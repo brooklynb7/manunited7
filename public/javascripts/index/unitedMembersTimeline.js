@@ -35,7 +35,11 @@
 		$imgDiv.append($img);
 
 		var $textDiv = $('<div class="pull-left col-xs-10 col-sm-11" />');
-		var $userName = $('<div class="user-name">' + timeline.user.name + '</div>');
+		var $userName = $('<div class="user-name">' +
+			'<a href="https://twitter.com/' + timeline.user.screen_name + '" target="_blank">' + timeline.user.name + '</a>' +
+			'</div>');
+
+		// console.log(timeline);
 		var $time = $('<span class="time">' + UI.convertDateTime(timeline.created_at) + '</span>');
 		$userName.append($time);
 		var $text = $('<p class="pre-wrap-text text">' + timeline.text + '</p>');

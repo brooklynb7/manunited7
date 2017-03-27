@@ -1,6 +1,8 @@
 'use strict';
 
-var config = require('../config');
+const path = require('path'),
+	moment = require('moment'),
+	config = require(path.resolve('./config/config'));
 
 module.exports = function(app) {
 	// Setting application local variables
@@ -13,6 +15,7 @@ module.exports = function(app) {
 	app.locals.logo = config.logo;
 	app.locals.favicon = config.favicon;
 	app.locals.adviceConfig = config.advice;
+	app.locals.buildNumber = moment(new Date()).format('YYYYMMDDHHmmss');
 
 	if (config.secure && config.secure.ssl === true) {
 		app.locals.secure = config.secure.ssl;

@@ -17,6 +17,7 @@ module.exports = function(app) {
 	apiRouter.put('/:id', admin.requireAdminLoginApi, post.updatePost);
 	apiRouter.get('/all', admin.requireAdminLoginApi, post.getAllPostList);
 	apiRouter.get('/slug/:slug', post.getPostBySlug);
+	apiRouter.get('/issue/fixduitangimageissue', admin.requireAdminLoginApi, post.fixDuitangImgSslIssue);
 	apiRouter.get('/:id', admin.requireAdminLoginApi, post.getPostById);
 	apiRouter.get('/', post.getPosts);
 

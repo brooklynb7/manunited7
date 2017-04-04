@@ -1,22 +1,23 @@
 'use strict';
 
-var url = require('url');
-var request = require('request');
-var config = require('../../config/config');
-var errorHandler = require('./error');
+const url = require('url'),
+	path = require('path'),
+	request = require('request'),
+	config = require(path.resolve('./config/config')),
+	errorHandler = require(path.resolve('./app/controllers/error'));
 
-var api_host = config.twitter.api_host;
-var consumer_key = config.twitter.consumer_key;
-var consumer_secret = config.twitter.consumer_secret;
-var access_token = config.twitter.access_token;
-var access_token_secret = config.twitter.access_token_secret;
+const api_host = config.twitter.api_host;
+const consumer_key = config.twitter.consumer_key;
+const consumer_secret = config.twitter.consumer_secret;
+const access_token = config.twitter.access_token;
+const access_token_secret = config.twitter.access_token_secret;
 
-var getListTimelineUrl = function(name) {
+let getListTimelineUrl = function(name) {
 	return '/lists/statuses.json?slug=' + name + '&owner_screen_name=brooklynb7_';
 };
 
-var generateOAuthRequestOption = function(api_url, req) {
-	var requestOption = {
+let generateOAuthRequestOption = function(api_url, req) {
+	let requestOption = {
 		url: api_host + api_url,
 		oauth: {
 			consumer_key: consumer_key,

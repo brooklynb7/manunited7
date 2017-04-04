@@ -8,6 +8,7 @@ var _ = require('lodash'),
 	path = require('path'),
 	errorHandler = require('./error'),
 	mongoose = require('mongoose'),
+	PostService = require(path.resolve('./app/services/post')),
 	Post = mongoose.model('Post');
 
 /*
@@ -146,6 +147,26 @@ exports.deletePost = (req, res) => {
 	Post.remove({
 		_id: id
 	}).exec((err, rst) => {
+		if (err) return errorHandler.sendError(res, err, 400);
+		res.json('ok');
+	});
+};
+
+
+exports.fixDuitangImgSslIssue = (req, res) => {
+	async.waterfall([
+		(callback) => {
+			PostService.getAllPosts(callback);
+		}, (posts, calllback) => {
+			let fixFns = [];
+			_.each(posts, (post) => {
+				fixFns.push((calllback) => {
+					PostService.fixDuitangImgSslIssue(post, calllback);
+				});
+			});
+			async.parallel(fixFns, calllback);
+		}
+	], (err, rst) => {
 		if (err) return errorHandler.sendError(res, err, 400);
 		res.json('ok');
 	});

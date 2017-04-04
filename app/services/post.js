@@ -3,13 +3,26 @@
 /**
  * Module dependencies.
  */
-var _ = require('lodash'),
+const _ = require('lodash'),
 	async = require('async'),
-	util = require('../utils'),
+	path = require('path'),
+	util = require(path.resolve('./app/utils/index')),
 	mongoose = require('mongoose'),
 	Post = mongoose.model('Post');
 
-var BASIC_PROJECTION = 'title cover_img slug';
+const BASIC_PROJECTION = 'title cover_img slug';
+
+exports.getAllPosts = (callback) => {
+	Post.find({}, callback);
+};
+
+exports.fixDuitangImgSslIssue = (post, callback) => {
+	post.content = post.content.replace(/http:\/\/img3.duitang.com/g, 'https://a-ssl.duitang.com');
+	if (post.cover_img) {
+		post.cover_img = post.cover_img.replace(/http:\/\/img3.duitang.com/g, 'https://a-ssl.duitang.com');
+	}
+	post.save(callback);
+};
 
 exports.getTodayPostList = (callback) => {
 	var condition = {
